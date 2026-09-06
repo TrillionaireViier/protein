@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { ArrowLeft, Cpu, ActivitySquare, Binary } from 'lucide-react';
+import { ArrowLeft, Cpu, ActivitySquare, Terminal, Zap, Shield, User } from 'lucide-react';
 
 export default function Version10() {
   return (
@@ -45,24 +45,24 @@ export default function Version10() {
             </div>
             
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-light uppercase tracking-widest leading-tight mb-6 text-cyan-50">
-              Synthesize<br/>
+              Хотите<br/>
               <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600 drop-shadow-[0_0_10px_rgba(34,211,238,0.5)]">
-                Excellence.
+                ЛУЧШЕГО?
               </span>
             </h1>
             
             <div className="w-16 h-1 bg-cyan-600 mb-8 shadow-[0_0_10px_#0891b2]"></div>
             
             <p className="text-cyan-700 text-lg mb-12 max-w-lg leading-relaxed">
-              &gt; EXECUTING RECOVERY PROTOCOL... <br/>
-              &gt; LOADING 25G WHEY ISOLATE... <br/>
-              &gt; OPTIMIZING MUSCLE REPAIR SUBROUTINES... <br/>
-              The ultimate bio-hack for physical supremacy.
+              &gt; EXECUTING BIO-HACK PROTOCOL... <br/>
+              &gt; FOUNDER: DR. ANDREW HUTCHINGS... <br/>
+              &gt; LOADING PURE WHEY ISOLATE... <br/>
+              Все продукты разрабатываются индивидуально врачом и учёным.
             </p>
             
             <div className="flex gap-4">
               <button className="bg-cyan-500 hover:bg-cyan-400 text-[#030712] font-bold px-8 py-4 uppercase tracking-[0.2em] transition-all shadow-[0_0_20px_rgba(6,182,212,0.4)]">
-                Inject_Now
+                Внедрить_Сейчас
               </button>
             </div>
           </div>
@@ -82,7 +82,7 @@ export default function Version10() {
               <ActivitySquare className="w-12 h-12 text-cyan-400 mb-8 animate-pulse shadow-[0_0_15px_#22d3ee] rounded-full" />
               
               <div className="text-center w-full">
-                <div className="text-cyan-600 text-xs tracking-[0.4em] uppercase mb-2">Subject:</div>
+                <div className="text-cyan-600 text-xs tracking-[0.4em] uppercase mb-2">Объект:</div>
                 <div className="text-3xl font-bold text-cyan-50 tracking-widest uppercase mb-6 drop-shadow-[0_0_8px_#22d3ee]">PRO_ISO</div>
                 
                 <div className="grid grid-cols-2 gap-4 border-t border-cyan-900 pt-6">
@@ -101,6 +101,97 @@ export default function Version10() {
           
         </div>
       </section>
+
+      {/* 100% Natural Section */}
+      <section className="relative z-10 py-24 bg-[#030712] border-t border-cyan-900/50 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-16 border-l-4 border-cyan-500 pl-6">
+            <h2 className="text-4xl font-light uppercase tracking-widest text-cyan-50 mb-4">
+              STATUS: <span className="font-bold text-cyan-400">100% NATURAL</span>
+            </h2>
+            <p className="text-cyan-700 max-w-2xl text-lg">
+              Продукты Хатчингс Здоровье содержат всё необходимое и ничего лишнего! Мы добавляем только полезное и исключаем вредное.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              { icon: Zap, title: "CLEAN_MATRIX", desc: "Здесь нет ничего ненатурального и никаких ненужных добавок: никаких искусственных подсластителей или красителей." },
+              { icon: ActivitySquare, title: "DAILY_ROUTINE", desc: "Это особенно важно, когда вы планируете употреблять продукт каждый день для поддержания своего здоровья." },
+              { icon: Shield, title: "MICROFLORA_DEFENSE", desc: "Многие продукты содержат нежелательные ингредиенты, нарушающие микрофлору. Наши формулы защищают систему." }
+            ].map((feature, i) => (
+              <div key={i} className="bg-[#081120] border border-cyan-900 p-8 hover:border-cyan-400 transition-colors group relative overflow-hidden">
+                <div className="absolute top-0 right-0 text-6xl text-cyan-950 font-bold -mt-4 -mr-4 group-hover:text-cyan-900 transition-colors">0{i+1}</div>
+                <feature.icon className="w-10 h-10 text-cyan-500 mb-6 relative z-10" />
+                <h3 className="text-xl font-bold uppercase tracking-widest text-cyan-50 mb-4 relative z-10">{feature.title}</h3>
+                <p className="text-cyan-700 relative z-10">{feature.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Founder Section */}
+      <section className="relative z-10 py-24 px-6 bg-[linear-gradient(45deg,#030712,#081120)] border-t border-cyan-900/50">
+        <div className="max-w-6xl mx-auto border border-cyan-800 bg-[#030712]/50 p-8 lg:p-12 flex flex-col md:flex-row gap-12 items-center">
+          
+          <div className="w-full md:w-1/3 flex justify-center relative">
+            <div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-cyan-500"></div>
+            <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-cyan-500"></div>
+            
+            <div className="w-56 h-56 bg-cyan-950 border border-cyan-700 flex flex-col items-center justify-center p-4">
+              <User className="w-16 h-16 text-cyan-700 mb-4" />
+              <div className="text-cyan-500 text-xs tracking-widest uppercase">IMAGE_DATA_MISSING</div>
+            </div>
+          </div>
+          
+          <div className="w-full md:w-2/3">
+            <div className="flex items-center gap-2 mb-2 text-cyan-600 text-sm">
+              <Terminal className="w-4 h-4" />
+              <span className="uppercase tracking-widest">Accessing File: Founder</span>
+            </div>
+            <h2 className="text-3xl font-bold uppercase text-cyan-50 tracking-widest mb-2">Hutchings Andrew Anthony</h2>
+            <p className="text-cyan-400 tracking-[0.2em] uppercase text-xs mb-8 bg-cyan-950 inline-block px-3 py-1 border border-cyan-800">
+              Основатель / Директор
+            </p>
+            
+            <div className="space-y-4 text-cyan-700 text-sm md:text-base leading-relaxed font-mono">
+              <p>
+                &gt; Эндрю — основатель и движущая сила ООО Хатчингс Здоровье. Изучал химию и биологию в Университет Калифорния Ирвайн (UCI) (молекулярная биология).
+              </p>
+              <p>
+                &gt; Мастер спорта по пауэрлифтингу, участник соревнований по бодибилдингу. Тренируется почти два десятилетия. Травмы и восстановление — его специализация.
+              </p>
+              <p>
+                &gt; За годы сломал почти все кости тела, получил множество разрывов сухожилий. Продолжает активно заниматься спортом, опираясь на правильное питание.
+              </p>
+              <div className="p-4 border-l-2 border-cyan-500 bg-cyan-950/30 mt-6 text-cyan-500">
+                <span className="text-cyan-400">INFO:</span> Автор книги «Систематическое руководство по борьбе с тендинитом» (A Systematic Guide to Defeating Tendonitis).
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="relative z-10 border-t border-cyan-900 bg-[#030712] py-12 px-6">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+          <div className="font-bold text-xl tracking-[0.4em] uppercase text-cyan-500">
+            Hutchings<span className="text-cyan-800">Health</span>
+          </div>
+          
+          <div className="flex gap-8 text-xs tracking-[0.2em] uppercase text-cyan-600">
+            <Link href="#" className="hover:text-cyan-400 transition-colors">О НАС</Link>
+            <Link href="#" className="hover:text-cyan-400 transition-colors">ПРОДУКТЫ</Link>
+            <Link href="#" className="hover:text-cyan-400 transition-colors">КОНТАКТ</Link>
+          </div>
+          
+          <div className="text-[10px] text-cyan-900 tracking-[0.3em] uppercase">
+            SYS_TILDA
+          </div>
+        </div>
+      </footer>
 
       <style dangerouslySetInnerHTML={{__html: `
         @keyframes scan {
