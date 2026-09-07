@@ -1,5 +1,8 @@
+'use client';
 import React from 'react';
 import Link from 'next/link';
+import { ArrowLeft, Target, Zap, Shield, ChevronRight } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 export default function Version7() {
   return (
@@ -52,22 +55,24 @@ export default function Version7() {
           <div className="absolute top-10 right-10 w-32 h-32 bg-black rounded-full mix-blend-overlay"></div>
           <div className="absolute bottom-10 left-10 text-9xl font-black text-yellow-400 mix-blend-difference">WHEY</div>
           
-          <div className="w-64 h-96 border-8 border-black bg-yellow-400 shadow-[24px_24px_0_0_rgba(0,0,0,1)] flex flex-col p-6 z-10 relative">
-            <div className="border-b-8 border-black pb-4 mb-4">
-              <div className="font-black text-4xl uppercase tracking-tighter">H-PRO</div>
-              <div className="font-bold text-xl uppercase">Изолят</div>
+          <Tilt tiltMaxAngleX={15} tiltMaxAngleY={15} scale={1.05} transitionSpeed={2500} className="z-10 relative">
+            <div className="w-64 h-96 border-8 border-black bg-yellow-400 shadow-[24px_24px_0_0_rgba(0,0,0,1)] flex flex-col p-6">
+              <div className="border-b-8 border-black pb-4 mb-4">
+                <div className="font-black text-4xl uppercase tracking-tighter">H-PRO</div>
+                <div className="font-bold text-xl uppercase">Изолят</div>
+              </div>
+              
+              <div className="flex-1 border-4 border-black bg-white mb-4 p-4 flex flex-col justify-center items-center text-center">
+                <div className="font-black text-6xl">25Г</div>
+                <div className="font-bold text-xl uppercase">Белок</div>
+              </div>
+              
+              <div className="mt-auto flex justify-between font-bold uppercase border-t-8 border-black pt-4">
+                <span>VOL. 1</span>
+                <span>2 LBS</span>
+              </div>
             </div>
-            
-            <div className="flex-1 border-4 border-black bg-white mb-4 p-4 flex flex-col justify-center items-center text-center">
-              <div className="font-black text-6xl">25Г</div>
-              <div className="font-bold text-xl uppercase">Белок</div>
-            </div>
-            
-            <div className="mt-auto flex justify-between font-bold uppercase border-t-8 border-black pt-4">
-              <span>VOL. 1</span>
-              <span>2 LBS</span>
-            </div>
-          </div>
+          </Tilt>
         </div>
         
       </section>
@@ -79,11 +84,11 @@ export default function Version7() {
           { title: "НА КАЖДЫЙ ДЕНЬ", desc: "ИДЕАЛЬНО, ЕСЛИ ВЫ ПЛАНИРУЕТЕ УПОТРЕБЛЯТЬ ПРОДУКТ ЕЖЕДНЕВНО ДЛЯ ПОДДЕРЖАНИЯ ЗДОРОВЬЯ." },
           { title: "ЖИВАЯ МИКРОФЛОРА", desc: "МНОГИЕ ДОБАВКИ УБИВАЮТ КИШЕЧНИК. МЫ ДОБАВЛЯЕМ ТОЛЬКО ПОЛЕЗНОЕ И ИСКЛЮЧАЕМ ВРЕДНОЕ." }
         ].map((feature, i) => (
-          <div key={i} className={`p-12 ${i !== 2 ? 'border-r-8 border-black' : ''} hover:bg-black hover:text-white transition-colors group cursor-crosshair`}>
+          <Tilt key={i} tiltMaxAngleX={10} tiltMaxAngleY={10} scale={1.02} transitionSpeed={2500} className={`p-12 ${i !== 2 ? 'border-r-8 border-black' : ''} hover:bg-black hover:text-white transition-colors group cursor-crosshair`}>
             <div className="text-8xl font-black mb-8 opacity-20 group-hover:opacity-100 group-hover:text-yellow-400 transition-colors">0{i+1}</div>
             <h3 className="text-3xl font-black uppercase mb-4">{feature.title}</h3>
             <p className="text-xl font-bold uppercase">{feature.desc}</p>
-          </div>
+          </Tilt>
         ))}
       </section>
 

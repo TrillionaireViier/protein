@@ -1,6 +1,9 @@
+'use client';
 import React from 'react';
 import Link from 'next/link';
 import { ArrowLeft, CheckCircle2, Shield, Beaker, Pill, User } from 'lucide-react';
+import { motion } from 'framer-motion';
+import Tilt from 'react-parallax-tilt';
 
 export default function Version1() {
   return (
@@ -24,7 +27,7 @@ export default function Version1() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-          <div>
+          <motion.div initial={{ opacity: 0, x: -50 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
             <div className="inline-flex items-center space-x-2 bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-sm font-semibold mb-6 border border-blue-100">
               <Shield className="w-4 h-4" />
               <span>Клинически разработано</span>
@@ -46,7 +49,7 @@ export default function Version1() {
             </div>
           </div>
           
-          <div className="relative">
+          <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8, delay: 0.2 }} className="relative">
             {/* Medical Cross Background Pattern */}
             <div className="absolute inset-0 bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:20px_20px] opacity-50 rounded-3xl"></div>
             
@@ -75,14 +78,14 @@ export default function Version1() {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </section>
 
       {/* 100% Natural Section */}
       <section className="py-20 bg-white border-y border-slate-200 px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
+          <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center mb-16">
             <h2 className="text-3xl font-bold text-slate-900 mb-4">100% Натуральный</h2>
             <p className="text-slate-600 max-w-2xl mx-auto leading-relaxed">
               Продукты Хатчингс Здоровье содержат всё необходимое и ничего лишнего! Мы добавляем только полезное и исключаем вредное.
@@ -95,13 +98,15 @@ export default function Version1() {
               { icon: Shield, title: "Идеально на каждый день", desc: "Это особенно важно, когда вы планируете употреблять продукт каждый день для поддержания своего здоровья и образа жизни." },
               { icon: Pill, title: "Забота о микрофлоре", desc: "Многие продукты содержат нежелательные ингредиенты, которые могут нарушать баланс кишечной микрофлоры. Наши продукты разработаны иначе." }
             ].map((feature, i) => (
-              <div key={i} className="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-blue-50/50 hover:border-blue-100 transition-colors group">
-                <div className="w-12 h-12 bg-white rounded-xl shadow-sm border border-slate-200 flex items-center justify-center text-blue-600 mb-6 group-hover:scale-110 transition-transform">
-                  <feature.icon className="w-6 h-6" />
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">{feature.title}</h3>
-                <p className="text-slate-600 leading-relaxed">{feature.desc}</p>
-              </div>
+              <Tilt key={i} tiltMaxAngleX={15} tiltMaxAngleY={15} scale={1.02} transitionSpeed={2500} className="h-full">
+                <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.1 }} className="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:bg-blue-50/50 hover:border-blue-100 transition-colors group h-full">
+                  <div className="w-12 h-12 bg-white rounded-xl shadow-sm border border-slate-200 flex items-center justify-center text-blue-600 mb-6 group-hover:scale-110 transition-transform">
+                    <feature.icon className="w-6 h-6" />
+                  </div>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3">{feature.title}</h3>
+                  <p className="text-slate-600 leading-relaxed">{feature.desc}</p>
+                </motion.div>
+              </Tilt>
             ))}
           </div>
         </div>

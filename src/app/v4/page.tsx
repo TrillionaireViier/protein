@@ -1,6 +1,9 @@
+'use client';
 import React from 'react';
 import Link from 'next/link';
 import { ArrowLeft, Crown, Star, Sparkles, Shield, User } from 'lucide-react';
+import { motion } from 'framer-motion';
+import Tilt from 'react-parallax-tilt';
 
 export default function Version4() {
   return (
@@ -48,19 +51,20 @@ export default function Version4() {
             {/* Glow */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#d4af37]/5 blur-[120px] rounded-full"></div>
             
-            {/* Premium Tub */}
-            <div className="relative w-64 h-[400px] bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a] rounded-xl border border-white/10 shadow-2xl flex flex-col items-center p-8">
-              <div className="w-full h-8 bg-gradient-to-r from-[#111] via-[#333] to-[#111] rounded-t-lg -mt-10 mb-8 border-b border-white/5"></div>
-              <Crown className="w-8 h-8 text-[#d4af37] mb-6" />
-              <div className="text-center w-full border-y border-white/10 py-6 mb-6">
-                <div className="font-serif text-3xl font-light text-white tracking-[0.2em] uppercase mb-2">Hutchings</div>
-                <div className="text-[#d4af37] text-xs tracking-[0.4em] uppercase">Signature</div>
+            <Tilt tiltMaxAngleX={15} tiltMaxAngleY={15} scale={1.05} transitionSpeed={2500} glareEnable={true} glareMaxOpacity={0.45} glareColor="#d4af37" glarePosition="all" className="relative w-64 h-[400px]">
+              <div className="w-full h-full bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a] rounded-xl border border-white/10 shadow-2xl flex flex-col items-center p-8">
+                <div className="w-full h-8 bg-gradient-to-r from-[#111] via-[#333] to-[#111] rounded-t-lg -mt-10 mb-8 border-b border-white/5"></div>
+                <Crown className="w-8 h-8 text-[#d4af37] mb-6" />
+                <div className="text-center w-full border-y border-white/10 py-6 mb-6">
+                  <div className="font-serif text-3xl font-light text-white tracking-[0.2em] uppercase mb-2">Hutchings</div>
+                  <div className="text-[#d4af37] text-xs tracking-[0.4em] uppercase">Signature</div>
+                </div>
+                <div className="mt-auto w-full flex justify-between text-[10px] text-zinc-500 tracking-[0.2em] uppercase">
+                  <span>Масса 2lbs</span>
+                  <span>Изолят</span>
+                </div>
               </div>
-              <div className="mt-auto w-full flex justify-between text-[10px] text-zinc-500 tracking-[0.2em] uppercase">
-                <span>Масса 2lbs</span>
-                <span>Изолят</span>
-              </div>
-            </div>
+            </Tilt>
           </div>
           
         </div>
@@ -84,11 +88,11 @@ export default function Version4() {
               { icon: Sparkles, title: "На Каждый День", desc: "Это особенно важно, когда вы планируете употреблять продукт каждый день для поддержания здоровья." },
               { icon: Shield, title: "Забота о Теле", desc: "Многие продукты содержат нежелательные ингредиенты, нарушающие баланс кишечника. Мы это исключили." }
             ].map((feature, i) => (
-              <div key={i} className="group text-center">
+              <Tilt key={i} tiltMaxAngleX={10} tiltMaxAngleY={10} scale={1.05} transitionSpeed={2500} className="group text-center">
                 <feature.icon className="w-8 h-8 text-[#d4af37] mb-6 mx-auto transition-transform group-hover:scale-110" />
                 <h3 className="text-xl font-serif text-white tracking-wider mb-4">{feature.title}</h3>
                 <p className="text-zinc-500 font-light leading-relaxed">{feature.desc}</p>
-              </div>
+              </Tilt>
             ))}
           </div>
         </div>

@@ -4,15 +4,8 @@ import { ArrowRight } from 'lucide-react';
 export default function Home() {
   const versions = [
     { id: 1, name: "Clean & Medical", path: "/v1", desc: "White, trustworthy, medical-grade aesthetic." },
-    { id: 2, name: "Aggressive Gym", path: "/v2", desc: "Dark, neon green/red, bold typography." },
-    { id: 3, name: "Eco Organic", path: "/v3", desc: "Earthy tones, greens, natural vibes." },
     { id: 4, name: "Premium Dark", path: "/v4", desc: "Black/Gold, luxurious, sleek." },
-    { id: 5, name: "Glassmorphism", path: "/v5", desc: "Frosted glass over abstract gradients." },
-    { id: 6, name: "Neumorphism", path: "/v6", desc: "Soft UI, extruded plastic look." },
     { id: 7, name: "Brutalism", path: "/v7", desc: "Raw borders, high contrast, marquee text." },
-    { id: 8, name: "Minimalist Apple", path: "/v8", desc: "Huge white space, extreme typography." },
-    { id: 9, name: "Playful Gen Z", path: "/v9", desc: "Vibrant pinks/yellows, rounded bubbly fonts." },
-    { id: 10, name: "High-Tech Sci-Fi", path: "/v10", desc: "Glow effects, grids, cyber aesthetic." },
   ];
 
   return (
@@ -23,7 +16,7 @@ export default function Home() {
             Protein Landing Pages
           </h1>
           <p className="text-lg md:text-xl text-neutral-500 max-w-2xl">
-            10 radically different design explorations for the Hutchings Health protein supplement landing page.
+            3 radically different design explorations for the Hutchings Health protein supplement landing page.
           </p>
         </header>
 
