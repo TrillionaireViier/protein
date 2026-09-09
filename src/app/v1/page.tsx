@@ -55,10 +55,8 @@ export default function Version1() {
             
             <div className="relative bg-white p-8 rounded-3xl border border-slate-100 shadow-2xl shadow-slate-200/50 flex flex-col items-center justify-center aspect-square">
               {/* Mock Product Image */}
-              <div className="w-48 h-64 bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl border-2 border-white shadow-inner flex items-center justify-center relative">
-                <div className="absolute top-4 left-0 right-0 text-center text-xs font-bold text-slate-400 tracking-widest uppercase">Hutchings</div>
-                <div className="text-blue-600 font-black text-4xl">PRO</div>
-                <div className="absolute bottom-4 left-0 right-0 text-center text-xs font-bold text-slate-400">ISOLATE</div>
+              <div className="w-48 h-64 bg-transparent flex items-center justify-center relative">
+                <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO Isolate" className="w-full h-full object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500" />
               </div>
               
               {/* Product Badges */}
@@ -116,8 +114,8 @@ export default function Version1() {
       <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-5xl mx-auto bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-slate-200 flex flex-col md:flex-row gap-12 items-center">
           <div className="w-full md:w-1/3 flex flex-col items-center">
-            <div className="w-48 h-48 bg-slate-200 rounded-full mb-6 border-4 border-white shadow-lg overflow-hidden flex items-center justify-center text-slate-400">
-              <User className="w-20 h-20" />
+            <div className="w-48 h-48 bg-slate-200 rounded-full mb-6 border-4 border-white shadow-lg overflow-hidden flex items-center justify-center">
+              <img src="https://static.tildacdn.com/tild6233-6366-4330-b661-383465373566/CCC_enhanced_eyes.jpg" alt="Dr. Andrew Hutchings" className="w-full h-full object-cover" />
             </div>
             <h3 className="text-2xl font-bold text-slate-900 text-center">Dr. Andrew Hutchings</h3>
             <p className="text-blue-600 font-medium text-center mb-2">Основатель, директор и разработчик продукции.</p>
