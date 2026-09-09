@@ -166,6 +166,294 @@ export default function ProductsV7() {
               </button>
             </div>
           </div>
+          {/* Product 1 */}
+          <div className="border-8 border-black bg-yellow-400 shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4 transition-all flex flex-col cursor-crosshair">
+            <div className="border-b-8 border-black p-6 bg-white">
+              <div className="font-black text-4xl uppercase tracking-tighter">H-PRO ИЗОЛЯТ</div>
+              <div className="font-bold text-xl uppercase mt-2">100% ЧИСТЫЙ</div>
+            </div>
+            
+            <div className="flex-1 p-12 flex flex-col justify-center items-center">
+<img src="https://static.tildacdn.com/tild3562-3933-4237-a266-636338356262/Protein_space.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
+            </div>
+            
+            <div className="bg-black text-white p-6 flex justify-between items-center">
+              <span className="font-black text-3xl">$45</span>
+              <button className="font-bold text-xl uppercase bg-yellow-400 text-black px-6 py-2 border-4 border-white hover:bg-white transition-colors">
+                КУПИТЬ
+              </button>
+            </div>
+          </div>
+          {/* Product 2 */}
+          <div className="border-8 border-black bg-yellow-400 shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4 transition-all flex flex-col cursor-crosshair">
+            <div className="border-b-8 border-black p-6 bg-white">
+              <div className="font-black text-4xl uppercase tracking-tighter">H-PRO ГЕЙНЕР</div>
+              <div className="font-bold text-xl uppercase mt-2">100% ЧИСТЫЙ</div>
+            </div>
+            
+            <div className="flex-1 p-12 flex flex-col justify-center items-center">
+<img src="https://static.tildacdn.com/tild3236-6538-4363-a666-323631633034/creatine_dual_flag_c.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
+            </div>
+            
+            <div className="bg-black text-white p-6 flex justify-between items-center">
+              <span className="font-black text-3xl">$55</span>
+              <button className="font-bold text-xl uppercase bg-yellow-400 text-black px-6 py-2 border-4 border-white hover:bg-white transition-colors">
+                КУПИТЬ
+              </button>
+            </div>
+          </div>
+          {/* Product 3 */}
+          <div className="border-8 border-black bg-yellow-400 shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4 transition-all flex flex-col cursor-crosshair">
+            <div className="border-b-8 border-black p-6 bg-white">
+              <div className="font-black text-4xl uppercase tracking-tighter">H-PRO ЭНЕРГИЯ</div>
+              <div className="font-bold text-xl uppercase mt-2">100% ЧИСТЫЙ</div>
+            </div>
+            
+            <div className="flex-1 p-12 flex flex-col justify-center items-center">
+<img src="https://static.tildacdn.com/tild6365-3931-4365-b931-353766393437/collagen_dual_flag_c.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
+            </div>
+            
+            <div className="bg-black text-white p-6 flex justify-between items-center">
+              <span className="font-black text-3xl">$35</span>
+              <button className="font-bold text-xl uppercase bg-yellow-400 text-black px-6 py-2 border-4 border-white hover:bg-white transition-colors">
+                КУПИТЬ
+              </button>
+            </div>
+          </div>
+          {/* Product 4 */}
+          <div className="border-8 border-black bg-yellow-400 shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4 transition-all flex flex-col cursor-crosshair">
+            <div className="border-b-8 border-black p-6 bg-white">
+              <div className="font-black text-4xl uppercase tracking-tighter">H-PRO BCAA</div>
+              <div className="font-bold text-xl uppercase mt-2">100% ЧИСТЫЙ</div>
+            </div>
+            
+            <div className="flex-1 p-12 flex flex-col justify-center items-center">
+<img src="https://static.tildacdn.com/tild6535-3330-4461-b335-323061383337/protein_space.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
+            </div>
+            
+            <div className="bg-black text-white p-6 flex justify-between items-center">
+              <span className="font-black text-3xl">$30</span>
+              <button className="font-bold text-xl uppercase bg-yellow-400 text-black px-6 py-2 border-4 border-white hover:bg-white transition-colors">
+                КУПИТЬ
+              </button>
+            </div>
+          </div>
+          {/* Product 5 */}
+          <div className="border-8 border-black bg-yellow-400 shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4 transition-all flex flex-col cursor-crosshair">
+            <div className="border-b-8 border-black p-6 bg-white">
+              <div className="font-black text-4xl uppercase tracking-tighter">H-PRO КРЕАТИН</div>
+              <div className="font-bold text-xl uppercase mt-2">100% ЧИСТЫЙ</div>
+            </div>
+            
+            <div className="flex-1 p-12 flex flex-col justify-center items-center">
+<img src="https://static.tildacdn.com/tild3562-3933-4237-a266-636338356262/Protein_space.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
+            </div>
+            
+            <div className="bg-black text-white p-6 flex justify-between items-center">
+              <span className="font-black text-3xl">$25</span>
+              <button className="font-bold text-xl uppercase bg-yellow-400 text-black px-6 py-2 border-4 border-white hover:bg-white transition-colors">
+                КУПИТЬ
+              </button>
+            </div>
+          </div>
+          {/* Product 6 */}
+          <div className="border-8 border-black bg-yellow-400 shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4 transition-all flex flex-col cursor-crosshair">
+            <div className="border-b-8 border-black p-6 bg-white">
+              <div className="font-black text-4xl uppercase tracking-tighter">H-PRO ВИТАМИНЫ</div>
+              <div className="font-bold text-xl uppercase mt-2">100% ЧИСТЫЙ</div>
+            </div>
+            
+            <div className="flex-1 p-12 flex flex-col justify-center items-center">
+<img src="https://static.tildacdn.com/tild3236-6538-4363-a666-323631633034/creatine_dual_flag_c.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
+            </div>
+            
+            <div className="bg-black text-white p-6 flex justify-between items-center">
+              <span className="font-black text-3xl">$20</span>
+              <button className="font-bold text-xl uppercase bg-yellow-400 text-black px-6 py-2 border-4 border-white hover:bg-white transition-colors">
+                КУПИТЬ
+              </button>
+            </div>
+          </div>
+          {/* Product 7 */}
+          <div className="border-8 border-black bg-yellow-400 shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4 transition-all flex flex-col cursor-crosshair">
+            <div className="border-b-8 border-black p-6 bg-white">
+              <div className="font-black text-4xl uppercase tracking-tighter">H-PRO ОМЕГА</div>
+              <div className="font-bold text-xl uppercase mt-2">100% ЧИСТЫЙ</div>
+            </div>
+            
+            <div className="flex-1 p-12 flex flex-col justify-center items-center">
+<img src="https://static.tildacdn.com/tild6365-3931-4365-b931-353766393437/collagen_dual_flag_c.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
+            </div>
+            
+            <div className="bg-black text-white p-6 flex justify-between items-center">
+              <span className="font-black text-3xl">$25</span>
+              <button className="font-bold text-xl uppercase bg-yellow-400 text-black px-6 py-2 border-4 border-white hover:bg-white transition-colors">
+                КУПИТЬ
+              </button>
+            </div>
+          </div>
+          {/* Product 8 */}
+          <div className="border-8 border-black bg-yellow-400 shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4 transition-all flex flex-col cursor-crosshair">
+            <div className="border-b-8 border-black p-6 bg-white">
+              <div className="font-black text-4xl uppercase tracking-tighter">H-PRO ТЕСТ</div>
+              <div className="font-bold text-xl uppercase mt-2">100% ЧИСТЫЙ</div>
+            </div>
+            
+            <div className="flex-1 p-12 flex flex-col justify-center items-center">
+<img src="https://static.tildacdn.com/tild6535-3330-4461-b335-323061383337/protein_space.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
+            </div>
+            
+            <div className="bg-black text-white p-6 flex justify-between items-center">
+              <span className="font-black text-3xl">$40</span>
+              <button className="font-bold text-xl uppercase bg-yellow-400 text-black px-6 py-2 border-4 border-white hover:bg-white transition-colors">
+                КУПИТЬ
+              </button>
+            </div>
+          </div>
+          {/* Product 1 */}
+          <div className="border-8 border-black bg-yellow-400 shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4 transition-all flex flex-col cursor-crosshair">
+            <div className="border-b-8 border-black p-6 bg-white">
+              <div className="font-black text-4xl uppercase tracking-tighter">H-PRO ИЗОЛЯТ</div>
+              <div className="font-bold text-xl uppercase mt-2">100% ЧИСТЫЙ</div>
+            </div>
+            
+            <div className="flex-1 p-12 flex flex-col justify-center items-center">
+<img src="https://static.tildacdn.com/tild3562-3933-4237-a266-636338356262/Protein_space.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
+            </div>
+            
+            <div className="bg-black text-white p-6 flex justify-between items-center">
+              <span className="font-black text-3xl">$45</span>
+              <button className="font-bold text-xl uppercase bg-yellow-400 text-black px-6 py-2 border-4 border-white hover:bg-white transition-colors">
+                КУПИТЬ
+              </button>
+            </div>
+          </div>
+          {/* Product 2 */}
+          <div className="border-8 border-black bg-yellow-400 shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4 transition-all flex flex-col cursor-crosshair">
+            <div className="border-b-8 border-black p-6 bg-white">
+              <div className="font-black text-4xl uppercase tracking-tighter">H-PRO ГЕЙНЕР</div>
+              <div className="font-bold text-xl uppercase mt-2">100% ЧИСТЫЙ</div>
+            </div>
+            
+            <div className="flex-1 p-12 flex flex-col justify-center items-center">
+<img src="https://static.tildacdn.com/tild3236-6538-4363-a666-323631633034/creatine_dual_flag_c.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
+            </div>
+            
+            <div className="bg-black text-white p-6 flex justify-between items-center">
+              <span className="font-black text-3xl">$55</span>
+              <button className="font-bold text-xl uppercase bg-yellow-400 text-black px-6 py-2 border-4 border-white hover:bg-white transition-colors">
+                КУПИТЬ
+              </button>
+            </div>
+          </div>
+          {/* Product 3 */}
+          <div className="border-8 border-black bg-yellow-400 shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4 transition-all flex flex-col cursor-crosshair">
+            <div className="border-b-8 border-black p-6 bg-white">
+              <div className="font-black text-4xl uppercase tracking-tighter">H-PRO ЭНЕРГИЯ</div>
+              <div className="font-bold text-xl uppercase mt-2">100% ЧИСТЫЙ</div>
+            </div>
+            
+            <div className="flex-1 p-12 flex flex-col justify-center items-center">
+<img src="https://static.tildacdn.com/tild6365-3931-4365-b931-353766393437/collagen_dual_flag_c.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
+            </div>
+            
+            <div className="bg-black text-white p-6 flex justify-between items-center">
+              <span className="font-black text-3xl">$35</span>
+              <button className="font-bold text-xl uppercase bg-yellow-400 text-black px-6 py-2 border-4 border-white hover:bg-white transition-colors">
+                КУПИТЬ
+              </button>
+            </div>
+          </div>
+          {/* Product 4 */}
+          <div className="border-8 border-black bg-yellow-400 shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4 transition-all flex flex-col cursor-crosshair">
+            <div className="border-b-8 border-black p-6 bg-white">
+              <div className="font-black text-4xl uppercase tracking-tighter">H-PRO BCAA</div>
+              <div className="font-bold text-xl uppercase mt-2">100% ЧИСТЫЙ</div>
+            </div>
+            
+            <div className="flex-1 p-12 flex flex-col justify-center items-center">
+<img src="https://static.tildacdn.com/tild6535-3330-4461-b335-323061383337/protein_space.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
+            </div>
+            
+            <div className="bg-black text-white p-6 flex justify-between items-center">
+              <span className="font-black text-3xl">$30</span>
+              <button className="font-bold text-xl uppercase bg-yellow-400 text-black px-6 py-2 border-4 border-white hover:bg-white transition-colors">
+                КУПИТЬ
+              </button>
+            </div>
+          </div>
+          {/* Product 5 */}
+          <div className="border-8 border-black bg-yellow-400 shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4 transition-all flex flex-col cursor-crosshair">
+            <div className="border-b-8 border-black p-6 bg-white">
+              <div className="font-black text-4xl uppercase tracking-tighter">H-PRO КРЕАТИН</div>
+              <div className="font-bold text-xl uppercase mt-2">100% ЧИСТЫЙ</div>
+            </div>
+            
+            <div className="flex-1 p-12 flex flex-col justify-center items-center">
+<img src="https://static.tildacdn.com/tild3562-3933-4237-a266-636338356262/Protein_space.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
+            </div>
+            
+            <div className="bg-black text-white p-6 flex justify-between items-center">
+              <span className="font-black text-3xl">$25</span>
+              <button className="font-bold text-xl uppercase bg-yellow-400 text-black px-6 py-2 border-4 border-white hover:bg-white transition-colors">
+                КУПИТЬ
+              </button>
+            </div>
+          </div>
+          {/* Product 6 */}
+          <div className="border-8 border-black bg-yellow-400 shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4 transition-all flex flex-col cursor-crosshair">
+            <div className="border-b-8 border-black p-6 bg-white">
+              <div className="font-black text-4xl uppercase tracking-tighter">H-PRO ВИТАМИНЫ</div>
+              <div className="font-bold text-xl uppercase mt-2">100% ЧИСТЫЙ</div>
+            </div>
+            
+            <div className="flex-1 p-12 flex flex-col justify-center items-center">
+<img src="https://static.tildacdn.com/tild3236-6538-4363-a666-323631633034/creatine_dual_flag_c.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
+            </div>
+            
+            <div className="bg-black text-white p-6 flex justify-between items-center">
+              <span className="font-black text-3xl">$20</span>
+              <button className="font-bold text-xl uppercase bg-yellow-400 text-black px-6 py-2 border-4 border-white hover:bg-white transition-colors">
+                КУПИТЬ
+              </button>
+            </div>
+          </div>
+          {/* Product 7 */}
+          <div className="border-8 border-black bg-yellow-400 shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4 transition-all flex flex-col cursor-crosshair">
+            <div className="border-b-8 border-black p-6 bg-white">
+              <div className="font-black text-4xl uppercase tracking-tighter">H-PRO ОМЕГА</div>
+              <div className="font-bold text-xl uppercase mt-2">100% ЧИСТЫЙ</div>
+            </div>
+            
+            <div className="flex-1 p-12 flex flex-col justify-center items-center">
+<img src="https://static.tildacdn.com/tild6365-3931-4365-b931-353766393437/collagen_dual_flag_c.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
+            </div>
+            
+            <div className="bg-black text-white p-6 flex justify-between items-center">
+              <span className="font-black text-3xl">$25</span>
+              <button className="font-bold text-xl uppercase bg-yellow-400 text-black px-6 py-2 border-4 border-white hover:bg-white transition-colors">
+                КУПИТЬ
+              </button>
+            </div>
+          </div>
+          {/* Product 8 */}
+          <div className="border-8 border-black bg-yellow-400 shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4 transition-all flex flex-col cursor-crosshair">
+            <div className="border-b-8 border-black p-6 bg-white">
+              <div className="font-black text-4xl uppercase tracking-tighter">H-PRO ТЕСТ</div>
+              <div className="font-bold text-xl uppercase mt-2">100% ЧИСТЫЙ</div>
+            </div>
+            
+            <div className="flex-1 p-12 flex flex-col justify-center items-center">
+<img src="https://static.tildacdn.com/tild6535-3330-4461-b335-323061383337/protein_space.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
+            </div>
+            
+            <div className="bg-black text-white p-6 flex justify-between items-center">
+              <span className="font-black text-3xl">$40</span>
+              <button className="font-bold text-xl uppercase bg-yellow-400 text-black px-6 py-2 border-4 border-white hover:bg-white transition-colors">
+                КУПИТЬ
+              </button>
+            </div>
+          </div>
         </div>
       </section>
     </div>

@@ -155,6 +155,262 @@ export default function ProductsV4() {
               </button>
             </div>
           </div>
+          {/* Product 1 */}
+          <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
+            <div className="w-full h-80 relative flex justify-center items-center mb-8">
+<img src="https://static.tildacdn.com/tild3562-3933-4237-a266-636338356262/Protein_space.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
+            </div>
+            
+            <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Signature Isolate</h2>
+            <p className="text-zinc-500 font-light text-center mb-8">Идеальная формула, созданная для максимального результата и быстрого усвоения.</p>
+            
+            <div className="w-full flex justify-between items-center mt-auto border-t border-white/5 pt-6">
+              <span className="text-3xl font-serif text-[#d4af37]">$89</span>
+              <button className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-8 py-3 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+                Приобрести
+              </button>
+            </div>
+          </div>
+          {/* Product 2 */}
+          <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
+            <div className="w-full h-80 relative flex justify-center items-center mb-8">
+<img src="https://static.tildacdn.com/tild3236-6538-4363-a666-323631633034/creatine_dual_flag_c.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
+            </div>
+            
+            <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Gold Mass</h2>
+            <p className="text-zinc-500 font-light text-center mb-8">Идеальная формула, созданная для максимального результата и быстрого усвоения.</p>
+            
+            <div className="w-full flex justify-between items-center mt-auto border-t border-white/5 pt-6">
+              <span className="text-3xl font-serif text-[#d4af37]">$99</span>
+              <button className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-8 py-3 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+                Приобрести
+              </button>
+            </div>
+          </div>
+          {/* Product 3 */}
+          <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
+            <div className="w-full h-80 relative flex justify-center items-center mb-8">
+<img src="https://static.tildacdn.com/tild6365-3931-4365-b931-353766393437/collagen_dual_flag_c.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
+            </div>
+            
+            <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Platinum Energy</h2>
+            <p className="text-zinc-500 font-light text-center mb-8">Идеальная формула, созданная для максимального результата и быстрого усвоения.</p>
+            
+            <div className="w-full flex justify-between items-center mt-auto border-t border-white/5 pt-6">
+              <span className="text-3xl font-serif text-[#d4af37]">$69</span>
+              <button className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-8 py-3 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+                Приобрести
+              </button>
+            </div>
+          </div>
+          {/* Product 4 */}
+          <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
+            <div className="w-full h-80 relative flex justify-center items-center mb-8">
+<img src="https://static.tildacdn.com/tild6535-3330-4461-b335-323061383337/protein_space.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
+            </div>
+            
+            <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Diamond BCAA</h2>
+            <p className="text-zinc-500 font-light text-center mb-8">Идеальная формула, созданная для максимального результата и быстрого усвоения.</p>
+            
+            <div className="w-full flex justify-between items-center mt-auto border-t border-white/5 pt-6">
+              <span className="text-3xl font-serif text-[#d4af37]">$59</span>
+              <button className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-8 py-3 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+                Приобрести
+              </button>
+            </div>
+          </div>
+          {/* Product 5 */}
+          <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
+            <div className="w-full h-80 relative flex justify-center items-center mb-8">
+<img src="https://static.tildacdn.com/tild3562-3933-4237-a266-636338356262/Protein_space.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
+            </div>
+            
+            <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Elite Creatine</h2>
+            <p className="text-zinc-500 font-light text-center mb-8">Идеальная формула, созданная для максимального результата и быстрого усвоения.</p>
+            
+            <div className="w-full flex justify-between items-center mt-auto border-t border-white/5 pt-6">
+              <span className="text-3xl font-serif text-[#d4af37]">$49</span>
+              <button className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-8 py-3 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+                Приобрести
+              </button>
+            </div>
+          </div>
+          {/* Product 6 */}
+          <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
+            <div className="w-full h-80 relative flex justify-center items-center mb-8">
+<img src="https://static.tildacdn.com/tild3236-6538-4363-a666-323631633034/creatine_dual_flag_c.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
+            </div>
+            
+            <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Pro Vitamins</h2>
+            <p className="text-zinc-500 font-light text-center mb-8">Идеальная формула, созданная для максимального результата и быстрого усвоения.</p>
+            
+            <div className="w-full flex justify-between items-center mt-auto border-t border-white/5 pt-6">
+              <span className="text-3xl font-serif text-[#d4af37]">$39</span>
+              <button className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-8 py-3 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+                Приобрести
+              </button>
+            </div>
+          </div>
+          {/* Product 7 */}
+          <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
+            <div className="w-full h-80 relative flex justify-center items-center mb-8">
+<img src="https://static.tildacdn.com/tild6365-3931-4365-b931-353766393437/collagen_dual_flag_c.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
+            </div>
+            
+            <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Ultra Omega</h2>
+            <p className="text-zinc-500 font-light text-center mb-8">Идеальная формула, созданная для максимального результата и быстрого усвоения.</p>
+            
+            <div className="w-full flex justify-between items-center mt-auto border-t border-white/5 pt-6">
+              <span className="text-3xl font-serif text-[#d4af37]">$45</span>
+              <button className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-8 py-3 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+                Приобрести
+              </button>
+            </div>
+          </div>
+          {/* Product 8 */}
+          <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
+            <div className="w-full h-80 relative flex justify-center items-center mb-8">
+<img src="https://static.tildacdn.com/tild6535-3330-4461-b335-323061383337/protein_space.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
+            </div>
+            
+            <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Master Test</h2>
+            <p className="text-zinc-500 font-light text-center mb-8">Идеальная формула, созданная для максимального результата и быстрого усвоения.</p>
+            
+            <div className="w-full flex justify-between items-center mt-auto border-t border-white/5 pt-6">
+              <span className="text-3xl font-serif text-[#d4af37]">$79</span>
+              <button className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-8 py-3 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+                Приобрести
+              </button>
+            </div>
+          </div>
+          {/* Product 1 */}
+          <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
+            <div className="w-full h-80 relative flex justify-center items-center mb-8">
+<img src="https://static.tildacdn.com/tild3562-3933-4237-a266-636338356262/Protein_space.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
+            </div>
+            
+            <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Signature Isolate</h2>
+            <p className="text-zinc-500 font-light text-center mb-8">Идеальная формула, созданная для максимального результата и быстрого усвоения.</p>
+            
+            <div className="w-full flex justify-between items-center mt-auto border-t border-white/5 pt-6">
+              <span className="text-3xl font-serif text-[#d4af37]">$89</span>
+              <button className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-8 py-3 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+                Приобрести
+              </button>
+            </div>
+          </div>
+          {/* Product 2 */}
+          <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
+            <div className="w-full h-80 relative flex justify-center items-center mb-8">
+<img src="https://static.tildacdn.com/tild3236-6538-4363-a666-323631633034/creatine_dual_flag_c.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
+            </div>
+            
+            <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Gold Mass</h2>
+            <p className="text-zinc-500 font-light text-center mb-8">Идеальная формула, созданная для максимального результата и быстрого усвоения.</p>
+            
+            <div className="w-full flex justify-between items-center mt-auto border-t border-white/5 pt-6">
+              <span className="text-3xl font-serif text-[#d4af37]">$99</span>
+              <button className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-8 py-3 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+                Приобрести
+              </button>
+            </div>
+          </div>
+          {/* Product 3 */}
+          <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
+            <div className="w-full h-80 relative flex justify-center items-center mb-8">
+<img src="https://static.tildacdn.com/tild6365-3931-4365-b931-353766393437/collagen_dual_flag_c.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
+            </div>
+            
+            <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Platinum Energy</h2>
+            <p className="text-zinc-500 font-light text-center mb-8">Идеальная формула, созданная для максимального результата и быстрого усвоения.</p>
+            
+            <div className="w-full flex justify-between items-center mt-auto border-t border-white/5 pt-6">
+              <span className="text-3xl font-serif text-[#d4af37]">$69</span>
+              <button className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-8 py-3 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+                Приобрести
+              </button>
+            </div>
+          </div>
+          {/* Product 4 */}
+          <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
+            <div className="w-full h-80 relative flex justify-center items-center mb-8">
+<img src="https://static.tildacdn.com/tild6535-3330-4461-b335-323061383337/protein_space.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
+            </div>
+            
+            <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Diamond BCAA</h2>
+            <p className="text-zinc-500 font-light text-center mb-8">Идеальная формула, созданная для максимального результата и быстрого усвоения.</p>
+            
+            <div className="w-full flex justify-between items-center mt-auto border-t border-white/5 pt-6">
+              <span className="text-3xl font-serif text-[#d4af37]">$59</span>
+              <button className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-8 py-3 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+                Приобрести
+              </button>
+            </div>
+          </div>
+          {/* Product 5 */}
+          <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
+            <div className="w-full h-80 relative flex justify-center items-center mb-8">
+<img src="https://static.tildacdn.com/tild3562-3933-4237-a266-636338356262/Protein_space.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
+            </div>
+            
+            <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Elite Creatine</h2>
+            <p className="text-zinc-500 font-light text-center mb-8">Идеальная формула, созданная для максимального результата и быстрого усвоения.</p>
+            
+            <div className="w-full flex justify-between items-center mt-auto border-t border-white/5 pt-6">
+              <span className="text-3xl font-serif text-[#d4af37]">$49</span>
+              <button className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-8 py-3 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+                Приобрести
+              </button>
+            </div>
+          </div>
+          {/* Product 6 */}
+          <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
+            <div className="w-full h-80 relative flex justify-center items-center mb-8">
+<img src="https://static.tildacdn.com/tild3236-6538-4363-a666-323631633034/creatine_dual_flag_c.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
+            </div>
+            
+            <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Pro Vitamins</h2>
+            <p className="text-zinc-500 font-light text-center mb-8">Идеальная формула, созданная для максимального результата и быстрого усвоения.</p>
+            
+            <div className="w-full flex justify-between items-center mt-auto border-t border-white/5 pt-6">
+              <span className="text-3xl font-serif text-[#d4af37]">$39</span>
+              <button className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-8 py-3 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+                Приобрести
+              </button>
+            </div>
+          </div>
+          {/* Product 7 */}
+          <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
+            <div className="w-full h-80 relative flex justify-center items-center mb-8">
+<img src="https://static.tildacdn.com/tild6365-3931-4365-b931-353766393437/collagen_dual_flag_c.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
+            </div>
+            
+            <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Ultra Omega</h2>
+            <p className="text-zinc-500 font-light text-center mb-8">Идеальная формула, созданная для максимального результата и быстрого усвоения.</p>
+            
+            <div className="w-full flex justify-between items-center mt-auto border-t border-white/5 pt-6">
+              <span className="text-3xl font-serif text-[#d4af37]">$45</span>
+              <button className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-8 py-3 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+                Приобрести
+              </button>
+            </div>
+          </div>
+          {/* Product 8 */}
+          <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
+            <div className="w-full h-80 relative flex justify-center items-center mb-8">
+<img src="https://static.tildacdn.com/tild6535-3330-4461-b335-323061383337/protein_space.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
+            </div>
+            
+            <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Master Test</h2>
+            <p className="text-zinc-500 font-light text-center mb-8">Идеальная формула, созданная для максимального результата и быстрого усвоения.</p>
+            
+            <div className="w-full flex justify-between items-center mt-auto border-t border-white/5 pt-6">
+              <span className="text-3xl font-serif text-[#d4af37]">$79</span>
+              <button className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-8 py-3 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+                Приобрести
+              </button>
+            </div>
+          </div>
         </div>
       </section>
     </div>
