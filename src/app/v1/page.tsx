@@ -140,7 +140,127 @@ export default function Version1() {
           </div>
         </div>
       </section>
+      {/* 1. Benefits Section */}
+      <section className="py-24 px-6 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 text-center mb-16">Ключевые преимущества</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              { title: 'Рост мышц', desc: 'Ускоряет синтез белка и помогает набирать сухую мышечную массу.', icon: '💪' },
+              { title: 'Быстрое восстановление', desc: 'Снижает мышечную усталость и боль после интенсивных тренировок.', icon: '⚡' },
+              { title: 'Легкое усвоение', desc: 'Не вызывает вздутия живота благодаря специальной формуле ферментов.', icon: '🍃' }
+            ].map((b, i) => (
+              <div key={i} className="bg-slate-50 p-8 rounded-3xl border border-slate-100 text-center hover:shadow-lg transition-shadow">
+                <div className="text-5xl mb-6">{b.icon}</div>
+                <h3 className="text-xl font-bold text-slate-900 mb-3">{b.title}</h3>
+                <p className="text-slate-600">{b.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
+      {/* 2. Ingredients Section */}
+      <section className="py-24 px-6 bg-blue-50">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+          <div className="w-full md:w-1/2">
+            <img src="https://static.tildacdn.com/tild3562-3933-4237-a266-636338356262/Protein_space.jpg" alt="Ingredients" className="rounded-3xl shadow-xl w-full" />
+          </div>
+          <div className="w-full md:w-1/2 space-y-6">
+            <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900">Идеально чистый состав</h2>
+            <p className="text-slate-600 text-lg leading-relaxed">
+              Мы верим, что ваше тело заслуживает только лучшего. Поэтому наш протеин содержит минимум ингредиентов при максимуме пользы.
+            </p>
+            <ul className="space-y-4 text-slate-700 font-medium">
+              <li className="flex items-center gap-3">
+                <div className="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center">✓</div>
+                100% Изолят сывороточного белка
+              </li>
+              <li className="flex items-center gap-3">
+                <div className="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center">✓</div>
+                Натуральные ароматизаторы
+              </li>
+              <li className="flex items-center gap-3">
+                <div className="w-6 h-6 rounded-full bg-red-100 text-red-600 flex items-center justify-center">✕</div>
+                Без добавленного сахара
+              </li>
+              <li className="flex items-center gap-3">
+                <div className="w-6 h-6 rounded-full bg-red-100 text-red-600 flex items-center justify-center">✕</div>
+                Без искусственных красителей
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* 3. Testimonials Section */}
+      <section className="py-24 px-6 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 text-center mb-16">Отзывы клиентов</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 relative">
+              <div className="text-blue-500 text-4xl absolute top-6 right-8 opacity-20">"</div>
+              <p className="text-slate-700 mb-6 relative z-10 italic">
+                «Лучший протеин, который я когда-либо пробовал. Он не только отлично на вкус, но и не вызывает никаких проблем с желудком, в отличие от многих других брендов».
+              </p>
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-slate-300 rounded-full flex-shrink-0"></div>
+                <div>
+                  <div className="font-bold text-slate-900">Александр М.</div>
+                  <div className="text-sm text-slate-500">Профессиональный атлет</div>
+                </div>
+              </div>
+            </div>
+            <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 relative">
+              <div className="text-blue-500 text-4xl absolute top-6 right-8 opacity-20">"</div>
+              <p className="text-slate-700 mb-6 relative z-10 italic">
+                «Как врач, я всегда внимательно изучаю составы. Hutchings Health превзошел все ожидания — чистейший изолят без лишней химии. Рекомендую всем своим пациентам».
+              </p>
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-slate-300 rounded-full flex-shrink-0"></div>
+                <div>
+                  <div className="font-bold text-slate-900">Елена С.</div>
+                  <div className="text-sm text-slate-500">Спортивный врач</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 4. FAQ Section */}
+      <section className="py-24 px-6 bg-slate-900 text-slate-300">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-white text-center mb-16">Частые вопросы</h2>
+          <div className="space-y-6">
+            <div className="border-b border-slate-700 pb-6">
+              <h4 className="text-xl font-bold text-white mb-2">Как принимать этот протеин?</h4>
+              <p>Смешайте одну мерную ложку с 250-300 мл воды или молока. Принимайте сразу после тренировки или между приемами пищи.</p>
+            </div>
+            <div className="border-b border-slate-700 pb-6">
+              <h4 className="text-xl font-bold text-white mb-2">Подходит ли он для людей с непереносимостью лактозы?</h4>
+              <p>Наш изолят проходит высокую степень очистки, поэтому содержание лактозы в нем минимально. Однако при сильной непереносимости рекомендуем проконсультироваться с врачом.</p>
+            </div>
+            <div className="border-b border-slate-700 pb-6">
+              <h4 className="text-xl font-bold text-white mb-2">Где производится продукт?</h4>
+              <p>Вся продукция производится на сертифицированном предприятии с соблюдением строгих стандартов качества.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 5. Bottom CTA Section */}
+      <section className="py-24 px-6 bg-blue-600 text-white text-center">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-extrabold mb-6">Готовы вывести свои тренировки на новый уровень?</h2>
+          <p className="text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
+            Попробуйте премиальный протеин, разработанный профессионалами для тех, кто не согласен на компромиссы.
+          </p>
+          <Link href="/v1/products" className="inline-block bg-white text-blue-600 hover:bg-slate-50 font-bold px-10 py-4 rounded-full text-lg shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+            Перейти в каталог
+          </Link>
+        </div>
+      </section>
       {/* Footer */}
       <footer className="bg-slate-900 text-slate-400 py-12 px-6">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
