@@ -21,29 +21,125 @@ export default function ProductsV1() {
       <section className="pt-32 pb-20 px-6 max-w-6xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 mb-12 text-center">ПРОДУКТЫ</h1>
         
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* Main Product */}
-          <div className="bg-white rounded-3xl p-8 border border-slate-200 shadow-xl flex flex-col items-center">
-            <div className="w-full h-64 bg-slate-50 rounded-2xl mb-8 flex items-center justify-center p-4">
-              <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO Isolate" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* Product 1 */}
+          <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xl flex flex-col items-center">
+            <div className="w-full h-48 bg-slate-50 rounded-2xl mb-6 flex items-center justify-center p-4">
+              <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO Isolate Vanilla" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
             </div>
-            <h2 className="text-2xl font-bold mb-2">Hutchings PRO Isolate</h2>
-            <p className="text-slate-500 text-center mb-6">100% чистый изолят сывороточного белка без искусственных добавок.</p>
+            <h2 className="text-xl font-bold mb-2 text-center">H-PRO Vanilla</h2>
+            <p className="text-slate-500 text-sm text-center mb-6">100% чистый изолят со вкусом ванили.</p>
             <div className="w-full flex justify-between items-center mt-auto">
-              <span className="text-2xl font-black text-blue-600">$49.99</span>
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-xl font-bold transition-colors">
-                В корзину
+              <span className="text-xl font-black text-blue-600">$49.99</span>
+              <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl font-bold transition-colors">
+                Купить
+              </button>
+            </div>
+          </div>
+
+          {/* Product 2 */}
+          <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xl flex flex-col items-center">
+            <div className="w-full h-48 bg-slate-50 rounded-2xl mb-6 flex items-center justify-center p-4">
+              <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO Isolate Chocolate" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
+            </div>
+            <h2 className="text-xl font-bold mb-2 text-center">H-PRO Chocolate</h2>
+            <p className="text-slate-500 text-sm text-center mb-6">100% чистый изолят со вкусом шоколада.</p>
+            <div className="w-full flex justify-between items-center mt-auto">
+              <span className="text-xl font-black text-blue-600">$49.99</span>
+              <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl font-bold transition-colors">
+                Купить
+              </button>
+            </div>
+          </div>
+
+          {/* Product 3 */}
+          <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xl flex flex-col items-center">
+            <div className="w-full h-48 bg-slate-50 rounded-2xl mb-6 flex items-center justify-center p-4">
+              <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO Mass" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
+            </div>
+            <h2 className="text-xl font-bold mb-2 text-center">H-PRO Mass</h2>
+            <p className="text-slate-500 text-sm text-center mb-6">Гейнер для набора качественной массы.</p>
+            <div className="w-full flex justify-between items-center mt-auto">
+              <span className="text-xl font-black text-blue-600">$59.99</span>
+              <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl font-bold transition-colors">
+                Купить
+              </button>
+            </div>
+          </div>
+
+          {/* Product 4 */}
+          <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xl flex flex-col items-center">
+            <div className="w-full h-48 bg-slate-50 rounded-2xl mb-6 flex items-center justify-center p-4">
+              <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO Energy" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
+            </div>
+            <h2 className="text-xl font-bold mb-2 text-center">H-PRO Energy</h2>
+            <p className="text-slate-500 text-sm text-center mb-6">Предтренировочный комплекс.</p>
+            <div className="w-full flex justify-between items-center mt-auto">
+              <span className="text-xl font-black text-blue-600">$39.99</span>
+              <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl font-bold transition-colors">
+                Купить
+              </button>
+            </div>
+          </div>
+
+          {/* Product 5 */}
+          <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xl flex flex-col items-center">
+            <div className="w-full h-48 bg-slate-50 rounded-2xl mb-6 flex items-center justify-center p-4">
+              <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO BCAA" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
+            </div>
+            <h2 className="text-xl font-bold mb-2 text-center">H-PRO BCAA</h2>
+            <p className="text-slate-500 text-sm text-center mb-6">Комплекс аминокислот для восстановления.</p>
+            <div className="w-full flex justify-between items-center mt-auto">
+              <span className="text-xl font-black text-blue-600">$34.99</span>
+              <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl font-bold transition-colors">
+                Купить
+              </button>
+            </div>
+          </div>
+
+          {/* Product 6 */}
+          <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xl flex flex-col items-center">
+            <div className="w-full h-48 bg-slate-50 rounded-2xl mb-6 flex items-center justify-center p-4">
+              <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO Creatine" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
+            </div>
+            <h2 className="text-xl font-bold mb-2 text-center">H-PRO Creatine</h2>
+            <p className="text-slate-500 text-sm text-center mb-6">Чистый креатин моногидрат.</p>
+            <div className="w-full flex justify-between items-center mt-auto">
+              <span className="text-xl font-black text-blue-600">$29.99</span>
+              <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl font-bold transition-colors">
+                Купить
               </button>
             </div>
           </div>
           
-          {/* Info Card */}
-          <div className="bg-blue-50 rounded-3xl p-8 border border-blue-100 flex flex-col justify-center items-center text-center">
-            <Beaker className="w-16 h-16 text-blue-600 mb-6" />
-            <h3 className="text-xl font-bold text-blue-900 mb-4">Клинически доказано</h3>
-            <p className="text-blue-800/80">
-              Наши продукты разрабатываются с учетом строгих медицинских стандартов. Мы гарантируем 100% чистоту и эффективность каждой порции.
-            </p>
+          {/* Product 7 */}
+          <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xl flex flex-col items-center">
+            <div className="w-full h-48 bg-slate-50 rounded-2xl mb-6 flex items-center justify-center p-4">
+              <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO Vitamins" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
+            </div>
+            <h2 className="text-xl font-bold mb-2 text-center">H-PRO Vitamins</h2>
+            <p className="text-slate-500 text-sm text-center mb-6">Мультивитаминный комплекс.</p>
+            <div className="w-full flex justify-between items-center mt-auto">
+              <span className="text-xl font-black text-blue-600">$24.99</span>
+              <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl font-bold transition-colors">
+                Купить
+              </button>
+            </div>
+          </div>
+
+          {/* Product 8 */}
+          <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xl flex flex-col items-center">
+            <div className="w-full h-48 bg-slate-50 rounded-2xl mb-6 flex items-center justify-center p-4">
+              <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO Omega" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
+            </div>
+            <h2 className="text-xl font-bold mb-2 text-center">H-PRO Omega</h2>
+            <p className="text-slate-500 text-sm text-center mb-6">Омега-3 для поддержания здоровья.</p>
+            <div className="w-full flex justify-between items-center mt-auto">
+              <span className="text-xl font-black text-blue-600">$27.99</span>
+              <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl font-bold transition-colors">
+                Купить
+              </button>
+            </div>
           </div>
         </div>
       </section>
