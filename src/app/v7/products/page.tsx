@@ -30,15 +30,7 @@ export default function ProductsV7() {
             </div>
             
             <div className="flex-1 p-12 flex flex-col justify-center items-center">
-              <div className="w-48 h-64 border-8 border-black bg-white shadow-[12px_12px_0_0_rgba(0,0,0,1)] flex flex-col p-4 transform -rotate-3">
-                <div className="border-b-4 border-black pb-2 mb-2 text-center">
-                  <div className="font-black text-2xl uppercase tracking-tighter">H-PRO</div>
-                </div>
-                <div className="flex-1 flex flex-col justify-center items-center text-center">
-                  <div className="font-black text-4xl">25Г</div>
-                  <div className="font-bold uppercase">Белок</div>
-                </div>
-              </div>
+<img src="https://static.tildacdn.com/tild3562-3933-4237-a266-636338356262/Protein_space.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
             </div>
             
             <div className="bg-black text-white p-6 flex justify-between items-center">
@@ -56,15 +48,7 @@ export default function ProductsV7() {
             </div>
             
             <div className="flex-1 p-12 flex flex-col justify-center items-center">
-              <div className="w-48 h-64 border-8 border-black bg-white shadow-[12px_12px_0_0_rgba(0,0,0,1)] flex flex-col p-4 transform -rotate-3">
-                <div className="border-b-4 border-black pb-2 mb-2 text-center">
-                  <div className="font-black text-2xl uppercase tracking-tighter">H-PRO</div>
-                </div>
-                <div className="flex-1 flex flex-col justify-center items-center text-center">
-                  <div className="font-black text-4xl">50Г</div>
-                  <div className="font-bold uppercase">Белок</div>
-                </div>
-              </div>
+<img src="https://static.tildacdn.com/tild3236-6538-4363-a666-323631633034/creatine_dual_flag_c.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
             </div>
             
             <div className="bg-black text-white p-6 flex justify-between items-center">
@@ -82,15 +66,7 @@ export default function ProductsV7() {
             </div>
             
             <div className="flex-1 p-12 flex flex-col justify-center items-center">
-              <div className="w-48 h-64 border-8 border-black bg-white shadow-[12px_12px_0_0_rgba(0,0,0,1)] flex flex-col p-4 transform -rotate-3">
-                <div className="border-b-4 border-black pb-2 mb-2 text-center">
-                  <div className="font-black text-2xl uppercase tracking-tighter">H-PRO</div>
-                </div>
-                <div className="flex-1 flex flex-col justify-center items-center text-center">
-                  <div className="font-black text-4xl">300МГ</div>
-                  <div className="font-bold uppercase">Кофеин</div>
-                </div>
-              </div>
+<img src="https://static.tildacdn.com/tild6365-3931-4365-b931-353766393437/collagen_dual_flag_c.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
             </div>
             
             <div className="bg-black text-white p-6 flex justify-between items-center">
@@ -108,15 +84,7 @@ export default function ProductsV7() {
             </div>
             
             <div className="flex-1 p-12 flex flex-col justify-center items-center">
-              <div className="w-48 h-64 border-8 border-black bg-white shadow-[12px_12px_0_0_rgba(0,0,0,1)] flex flex-col p-4 transform -rotate-3">
-                <div className="border-b-4 border-black pb-2 mb-2 text-center">
-                  <div className="font-black text-2xl uppercase tracking-tighter">H-PRO</div>
-                </div>
-                <div className="flex-1 flex flex-col justify-center items-center text-center">
-                  <div className="font-black text-4xl">5Г</div>
-                  <div className="font-bold uppercase">Лейцин</div>
-                </div>
-              </div>
+<img src="https://static.tildacdn.com/tild6535-3330-4461-b335-323061383337/protein_space.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
             </div>
             
             <div className="bg-black text-white p-6 flex justify-between items-center">
@@ -134,15 +102,7 @@ export default function ProductsV7() {
             </div>
             
             <div className="flex-1 p-12 flex flex-col justify-center items-center">
-              <div className="w-48 h-64 border-8 border-black bg-white shadow-[12px_12px_0_0_rgba(0,0,0,1)] flex flex-col p-4 transform -rotate-3">
-                <div className="border-b-4 border-black pb-2 mb-2 text-center">
-                  <div className="font-black text-2xl uppercase tracking-tighter">H-PRO</div>
-                </div>
-                <div className="flex-1 flex flex-col justify-center items-center text-center">
-                  <div className="font-black text-4xl">5Г</div>
-                  <div className="font-bold uppercase">Креатин</div>
-                </div>
-              </div>
+<img src="https://static.tildacdn.com/tild3562-3933-4237-a266-636338356262/Protein_space.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
             </div>
             
             <div className="bg-black text-white p-6 flex justify-between items-center">
@@ -160,15 +120,7 @@ export default function ProductsV7() {
             </div>
             
             <div className="flex-1 p-12 flex flex-col justify-center items-center">
-              <div className="w-48 h-64 border-8 border-black bg-white shadow-[12px_12px_0_0_rgba(0,0,0,1)] flex flex-col p-4 transform -rotate-3">
-                <div className="border-b-4 border-black pb-2 mb-2 text-center">
-                  <div className="font-black text-2xl uppercase tracking-tighter">H-PRO</div>
-                </div>
-                <div className="flex-1 flex flex-col justify-center items-center text-center">
-                  <div className="font-black text-4xl">100%</div>
-                  <div className="font-bold uppercase">Суточная</div>
-                </div>
-              </div>
+<img src="https://static.tildacdn.com/tild3236-6538-4363-a666-323631633034/creatine_dual_flag_c.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
             </div>
             
             <div className="bg-black text-white p-6 flex justify-between items-center">
@@ -186,15 +138,7 @@ export default function ProductsV7() {
             </div>
             
             <div className="flex-1 p-12 flex flex-col justify-center items-center">
-              <div className="w-48 h-64 border-8 border-black bg-white shadow-[12px_12px_0_0_rgba(0,0,0,1)] flex flex-col p-4 transform -rotate-3">
-                <div className="border-b-4 border-black pb-2 mb-2 text-center">
-                  <div className="font-black text-2xl uppercase tracking-tighter">H-PRO</div>
-                </div>
-                <div className="flex-1 flex flex-col justify-center items-center text-center">
-                  <div className="font-black text-4xl">1000МГ</div>
-                  <div className="font-bold uppercase">EPA/DHA</div>
-                </div>
-              </div>
+<img src="https://static.tildacdn.com/tild6365-3931-4365-b931-353766393437/collagen_dual_flag_c.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
             </div>
             
             <div className="bg-black text-white p-6 flex justify-between items-center">
@@ -212,15 +156,7 @@ export default function ProductsV7() {
             </div>
             
             <div className="flex-1 p-12 flex flex-col justify-center items-center">
-              <div className="w-48 h-64 border-8 border-black bg-white shadow-[12px_12px_0_0_rgba(0,0,0,1)] flex flex-col p-4 transform -rotate-3">
-                <div className="border-b-4 border-black pb-2 mb-2 text-center">
-                  <div className="font-black text-2xl uppercase tracking-tighter">H-PRO</div>
-                </div>
-                <div className="flex-1 flex flex-col justify-center items-center text-center">
-                  <div className="font-black text-4xl">500МГ</div>
-                  <div className="font-bold uppercase">Трибулус</div>
-                </div>
-              </div>
+<img src="https://static.tildacdn.com/tild6535-3330-4461-b335-323061383337/protein_space.jpg" alt="Product" className="w-48 h-64 border-8 border-black shadow-[12px_12px_0_0_rgba(0,0,0,1)] object-cover transform -rotate-3 hover:rotate-0 transition-transform" />
             </div>
             
             <div className="bg-black text-white p-6 flex justify-between items-center">

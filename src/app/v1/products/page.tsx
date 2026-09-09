@@ -25,7 +25,7 @@ export default function ProductsV1() {
           {/* Product 1 */}
           <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xl flex flex-col items-center">
             <div className="w-full h-48 bg-slate-50 rounded-2xl mb-6 flex items-center justify-center p-4">
-              <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO Isolate Vanilla" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
+              <img src="https://static.tildacdn.com/tild3562-3933-4237-a266-636338356262/Protein_space.jpg" alt="Hutchings PRO Isolate Vanilla" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
             </div>
             <h2 className="text-xl font-bold mb-2 text-center">H-PRO Vanilla</h2>
             <p className="text-slate-500 text-sm text-center mb-6">100% чистый изолят со вкусом ванили.</p>
@@ -40,7 +40,7 @@ export default function ProductsV1() {
           {/* Product 2 */}
           <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xl flex flex-col items-center">
             <div className="w-full h-48 bg-slate-50 rounded-2xl mb-6 flex items-center justify-center p-4">
-              <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO Isolate Chocolate" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
+              <img src="https://static.tildacdn.com/tild3236-6538-4363-a666-323631633034/creatine_dual_flag_c.jpg" alt="Hutchings PRO Isolate Chocolate" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
             </div>
             <h2 className="text-xl font-bold mb-2 text-center">H-PRO Chocolate</h2>
             <p className="text-slate-500 text-sm text-center mb-6">100% чистый изолят со вкусом шоколада.</p>
@@ -55,7 +55,7 @@ export default function ProductsV1() {
           {/* Product 3 */}
           <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xl flex flex-col items-center">
             <div className="w-full h-48 bg-slate-50 rounded-2xl mb-6 flex items-center justify-center p-4">
-              <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO Mass" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
+              <img src="https://static.tildacdn.com/tild6365-3931-4365-b931-353766393437/collagen_dual_flag_c.jpg" alt="Hutchings PRO Mass" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
             </div>
             <h2 className="text-xl font-bold mb-2 text-center">H-PRO Mass</h2>
             <p className="text-slate-500 text-sm text-center mb-6">Гейнер для набора качественной массы.</p>
@@ -70,7 +70,7 @@ export default function ProductsV1() {
           {/* Product 4 */}
           <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xl flex flex-col items-center">
             <div className="w-full h-48 bg-slate-50 rounded-2xl mb-6 flex items-center justify-center p-4">
-              <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO Energy" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
+              <img src="https://static.tildacdn.com/tild6535-3330-4461-b335-323061383337/protein_space.jpg" alt="Hutchings PRO Energy" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
             </div>
             <h2 className="text-xl font-bold mb-2 text-center">H-PRO Energy</h2>
             <p className="text-slate-500 text-sm text-center mb-6">Предтренировочный комплекс.</p>
@@ -85,7 +85,7 @@ export default function ProductsV1() {
           {/* Product 5 */}
           <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xl flex flex-col items-center">
             <div className="w-full h-48 bg-slate-50 rounded-2xl mb-6 flex items-center justify-center p-4">
-              <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO BCAA" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
+              <img src="https://static.tildacdn.com/tild3562-3933-4237-a266-636338356262/Protein_space.jpg" alt="Hutchings PRO BCAA" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
             </div>
             <h2 className="text-xl font-bold mb-2 text-center">H-PRO BCAA</h2>
             <p className="text-slate-500 text-sm text-center mb-6">Комплекс аминокислот для восстановления.</p>
@@ -100,7 +100,7 @@ export default function ProductsV1() {
           {/* Product 6 */}
           <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xl flex flex-col items-center">
             <div className="w-full h-48 bg-slate-50 rounded-2xl mb-6 flex items-center justify-center p-4">
-              <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO Creatine" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
+              <img src="https://static.tildacdn.com/tild3236-6538-4363-a666-323631633034/creatine_dual_flag_c.jpg" alt="Hutchings PRO Creatine" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
             </div>
             <h2 className="text-xl font-bold mb-2 text-center">H-PRO Creatine</h2>
             <p className="text-slate-500 text-sm text-center mb-6">Чистый креатин моногидрат.</p>
@@ -115,7 +115,7 @@ export default function ProductsV1() {
           {/* Product 7 */}
           <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xl flex flex-col items-center">
             <div className="w-full h-48 bg-slate-50 rounded-2xl mb-6 flex items-center justify-center p-4">
-              <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO Vitamins" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
+              <img src="https://static.tildacdn.com/tild6365-3931-4365-b931-353766393437/collagen_dual_flag_c.jpg" alt="Hutchings PRO Vitamins" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
             </div>
             <h2 className="text-xl font-bold mb-2 text-center">H-PRO Vitamins</h2>
             <p className="text-slate-500 text-sm text-center mb-6">Мультивитаминный комплекс.</p>
@@ -130,7 +130,7 @@ export default function ProductsV1() {
           {/* Product 8 */}
           <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xl flex flex-col items-center">
             <div className="w-full h-48 bg-slate-50 rounded-2xl mb-6 flex items-center justify-center p-4">
-              <img src="https://static.tildacdn.com/tild3730-3339-4535-b561-303735323337/logo_alternate_very_.png" alt="Hutchings PRO Omega" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
+              <img src="https://static.tildacdn.com/tild6535-3330-4461-b335-323061383337/protein_space.jpg" alt="Hutchings PRO Omega" className="max-h-full object-contain hover:scale-105 transition-transform duration-500" />
             </div>
             <h2 className="text-xl font-bold mb-2 text-center">H-PRO Omega</h2>
             <p className="text-slate-500 text-sm text-center mb-6">Омега-3 для поддержания здоровья.</p>

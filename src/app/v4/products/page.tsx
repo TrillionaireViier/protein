@@ -30,19 +30,7 @@ export default function ProductsV4() {
           {/* Product 1 */}
           <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
             <div className="w-full h-80 relative flex justify-center items-center mb-8">
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-[#d4af37]/10 blur-[80px] rounded-full"></div>
-              <div className="w-48 h-64 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a] rounded-xl border border-white/10 shadow-2xl flex flex-col items-center p-6 relative z-10">
-                <div className="w-full h-6 bg-gradient-to-r from-[#111] via-[#333] to-[#111] rounded-t-lg -mt-8 mb-6 border-b border-white/5"></div>
-                <Crown className="w-6 h-6 text-[#d4af37] mb-4" />
-                <div className="text-center w-full border-y border-white/10 py-4 mb-4">
-                  <div className="font-serif text-xl font-light text-white tracking-[0.2em] uppercase mb-1">Hutchings</div>
-                  <div className="text-[#d4af37] text-[10px] tracking-[0.4em] uppercase">Signature</div>
-                </div>
-                <div className="mt-auto w-full flex justify-between text-[8px] text-zinc-500 tracking-[0.2em] uppercase">
-                  <span>2lbs</span>
-                  <span>Isolate</span>
-                </div>
-              </div>
+<img src="https://static.tildacdn.com/tild3562-3933-4237-a266-636338356262/Protein_space.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
             </div>
             
             <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Signature Isolate</h2>
@@ -58,19 +46,7 @@ export default function ProductsV4() {
           {/* Product 2 */}
           <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
             <div className="w-full h-80 relative flex justify-center items-center mb-8">
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-[#d4af37]/10 blur-[80px] rounded-full"></div>
-              <div className="w-48 h-64 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a] rounded-xl border border-white/10 shadow-2xl flex flex-col items-center p-6 relative z-10">
-                <div className="w-full h-6 bg-gradient-to-r from-[#111] via-[#333] to-[#111] rounded-t-lg -mt-8 mb-6 border-b border-white/5"></div>
-                <Crown className="w-6 h-6 text-[#d4af37] mb-4" />
-                <div className="text-center w-full border-y border-white/10 py-4 mb-4">
-                  <div className="font-serif text-xl font-light text-white tracking-[0.2em] uppercase mb-1">Hutchings</div>
-                  <div className="text-[#d4af37] text-[10px] tracking-[0.4em] uppercase">Gold</div>
-                </div>
-                <div className="mt-auto w-full flex justify-between text-[8px] text-zinc-500 tracking-[0.2em] uppercase">
-                  <span>2lbs</span>
-                  <span>Mass</span>
-                </div>
-              </div>
+<img src="https://static.tildacdn.com/tild3236-6538-4363-a666-323631633034/creatine_dual_flag_c.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
             </div>
             
             <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Gold Mass</h2>
@@ -86,19 +62,7 @@ export default function ProductsV4() {
           {/* Product 3 */}
           <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
             <div className="w-full h-80 relative flex justify-center items-center mb-8">
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-[#d4af37]/10 blur-[80px] rounded-full"></div>
-              <div className="w-48 h-64 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a] rounded-xl border border-white/10 shadow-2xl flex flex-col items-center p-6 relative z-10">
-                <div className="w-full h-6 bg-gradient-to-r from-[#111] via-[#333] to-[#111] rounded-t-lg -mt-8 mb-6 border-b border-white/5"></div>
-                <Crown className="w-6 h-6 text-[#d4af37] mb-4" />
-                <div className="text-center w-full border-y border-white/10 py-4 mb-4">
-                  <div className="font-serif text-xl font-light text-white tracking-[0.2em] uppercase mb-1">Hutchings</div>
-                  <div className="text-[#d4af37] text-[10px] tracking-[0.4em] uppercase">Platinum</div>
-                </div>
-                <div className="mt-auto w-full flex justify-between text-[8px] text-zinc-500 tracking-[0.2em] uppercase">
-                  <span>2lbs</span>
-                  <span>Energy</span>
-                </div>
-              </div>
+<img src="https://static.tildacdn.com/tild6365-3931-4365-b931-353766393437/collagen_dual_flag_c.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
             </div>
             
             <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Platinum Energy</h2>
@@ -114,19 +78,7 @@ export default function ProductsV4() {
           {/* Product 4 */}
           <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
             <div className="w-full h-80 relative flex justify-center items-center mb-8">
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-[#d4af37]/10 blur-[80px] rounded-full"></div>
-              <div className="w-48 h-64 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a] rounded-xl border border-white/10 shadow-2xl flex flex-col items-center p-6 relative z-10">
-                <div className="w-full h-6 bg-gradient-to-r from-[#111] via-[#333] to-[#111] rounded-t-lg -mt-8 mb-6 border-b border-white/5"></div>
-                <Crown className="w-6 h-6 text-[#d4af37] mb-4" />
-                <div className="text-center w-full border-y border-white/10 py-4 mb-4">
-                  <div className="font-serif text-xl font-light text-white tracking-[0.2em] uppercase mb-1">Hutchings</div>
-                  <div className="text-[#d4af37] text-[10px] tracking-[0.4em] uppercase">Diamond</div>
-                </div>
-                <div className="mt-auto w-full flex justify-between text-[8px] text-zinc-500 tracking-[0.2em] uppercase">
-                  <span>2lbs</span>
-                  <span>BCAA</span>
-                </div>
-              </div>
+<img src="https://static.tildacdn.com/tild6535-3330-4461-b335-323061383337/protein_space.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
             </div>
             
             <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Diamond BCAA</h2>
@@ -142,19 +94,7 @@ export default function ProductsV4() {
           {/* Product 5 */}
           <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
             <div className="w-full h-80 relative flex justify-center items-center mb-8">
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-[#d4af37]/10 blur-[80px] rounded-full"></div>
-              <div className="w-48 h-64 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a] rounded-xl border border-white/10 shadow-2xl flex flex-col items-center p-6 relative z-10">
-                <div className="w-full h-6 bg-gradient-to-r from-[#111] via-[#333] to-[#111] rounded-t-lg -mt-8 mb-6 border-b border-white/5"></div>
-                <Crown className="w-6 h-6 text-[#d4af37] mb-4" />
-                <div className="text-center w-full border-y border-white/10 py-4 mb-4">
-                  <div className="font-serif text-xl font-light text-white tracking-[0.2em] uppercase mb-1">Hutchings</div>
-                  <div className="text-[#d4af37] text-[10px] tracking-[0.4em] uppercase">Elite</div>
-                </div>
-                <div className="mt-auto w-full flex justify-between text-[8px] text-zinc-500 tracking-[0.2em] uppercase">
-                  <span>2lbs</span>
-                  <span>Creatine</span>
-                </div>
-              </div>
+<img src="https://static.tildacdn.com/tild3562-3933-4237-a266-636338356262/Protein_space.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
             </div>
             
             <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Elite Creatine</h2>
@@ -170,19 +110,7 @@ export default function ProductsV4() {
           {/* Product 6 */}
           <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
             <div className="w-full h-80 relative flex justify-center items-center mb-8">
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-[#d4af37]/10 blur-[80px] rounded-full"></div>
-              <div className="w-48 h-64 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a] rounded-xl border border-white/10 shadow-2xl flex flex-col items-center p-6 relative z-10">
-                <div className="w-full h-6 bg-gradient-to-r from-[#111] via-[#333] to-[#111] rounded-t-lg -mt-8 mb-6 border-b border-white/5"></div>
-                <Crown className="w-6 h-6 text-[#d4af37] mb-4" />
-                <div className="text-center w-full border-y border-white/10 py-4 mb-4">
-                  <div className="font-serif text-xl font-light text-white tracking-[0.2em] uppercase mb-1">Hutchings</div>
-                  <div className="text-[#d4af37] text-[10px] tracking-[0.4em] uppercase">Pro</div>
-                </div>
-                <div className="mt-auto w-full flex justify-between text-[8px] text-zinc-500 tracking-[0.2em] uppercase">
-                  <span>2lbs</span>
-                  <span>Vitamins</span>
-                </div>
-              </div>
+<img src="https://static.tildacdn.com/tild3236-6538-4363-a666-323631633034/creatine_dual_flag_c.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
             </div>
             
             <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Pro Vitamins</h2>
@@ -198,19 +126,7 @@ export default function ProductsV4() {
           {/* Product 7 */}
           <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
             <div className="w-full h-80 relative flex justify-center items-center mb-8">
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-[#d4af37]/10 blur-[80px] rounded-full"></div>
-              <div className="w-48 h-64 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a] rounded-xl border border-white/10 shadow-2xl flex flex-col items-center p-6 relative z-10">
-                <div className="w-full h-6 bg-gradient-to-r from-[#111] via-[#333] to-[#111] rounded-t-lg -mt-8 mb-6 border-b border-white/5"></div>
-                <Crown className="w-6 h-6 text-[#d4af37] mb-4" />
-                <div className="text-center w-full border-y border-white/10 py-4 mb-4">
-                  <div className="font-serif text-xl font-light text-white tracking-[0.2em] uppercase mb-1">Hutchings</div>
-                  <div className="text-[#d4af37] text-[10px] tracking-[0.4em] uppercase">Ultra</div>
-                </div>
-                <div className="mt-auto w-full flex justify-between text-[8px] text-zinc-500 tracking-[0.2em] uppercase">
-                  <span>2lbs</span>
-                  <span>Omega</span>
-                </div>
-              </div>
+<img src="https://static.tildacdn.com/tild6365-3931-4365-b931-353766393437/collagen_dual_flag_c.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
             </div>
             
             <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Ultra Omega</h2>
@@ -226,19 +142,7 @@ export default function ProductsV4() {
           {/* Product 8 */}
           <div className="bg-[#111] rounded-2xl border border-white/5 hover:border-[#d4af37]/30 transition-colors group p-8 flex flex-col items-center">
             <div className="w-full h-80 relative flex justify-center items-center mb-8">
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-[#d4af37]/10 blur-[80px] rounded-full"></div>
-              <div className="w-48 h-64 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a] rounded-xl border border-white/10 shadow-2xl flex flex-col items-center p-6 relative z-10">
-                <div className="w-full h-6 bg-gradient-to-r from-[#111] via-[#333] to-[#111] rounded-t-lg -mt-8 mb-6 border-b border-white/5"></div>
-                <Crown className="w-6 h-6 text-[#d4af37] mb-4" />
-                <div className="text-center w-full border-y border-white/10 py-4 mb-4">
-                  <div className="font-serif text-xl font-light text-white tracking-[0.2em] uppercase mb-1">Hutchings</div>
-                  <div className="text-[#d4af37] text-[10px] tracking-[0.4em] uppercase">Master</div>
-                </div>
-                <div className="mt-auto w-full flex justify-between text-[8px] text-zinc-500 tracking-[0.2em] uppercase">
-                  <span>2lbs</span>
-                  <span>Test</span>
-                </div>
-              </div>
+<img src="https://static.tildacdn.com/tild6535-3330-4461-b335-323061383337/protein_space.jpg" alt="Product" className="max-h-full object-contain relative z-10 hover:scale-110 transition-transform duration-700 mix-blend-screen" />
             </div>
             
             <h2 className="text-2xl font-serif tracking-wider mb-3 group-hover:text-[#d4af37] transition-colors">Premium Master Test</h2>
