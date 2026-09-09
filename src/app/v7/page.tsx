@@ -119,6 +119,94 @@ export default function Version7() {
         </div>
       </section>
 
+      {/* 1. Benefits Section */}
+      <section className="w-full border-t-8 border-black bg-yellow-400 p-8 md:p-16">
+        <h2 className="font-black text-5xl md:text-8xl uppercase mb-12 transform -rotate-2">ПОЧЕМУ МЫ?!</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {[
+            { title: 'МАССА', desc: 'УСКОРЯЕТ СИНТЕЗ БЕЛКА. ТОЛЬКО СУХАЯ МЫШЕЧНАЯ МАССА.', icon: '💪' },
+            { title: 'СКОРОСТЬ', desc: 'СНИЖАЕТ УСТАЛОСТЬ И БОЛЬ ПОСЛЕ ИНТЕНСИВНЫХ ТРЕНИРОВОК.', icon: '⚡' },
+            { title: 'УСВОЕНИЕ', desc: 'БЕЗ ВЗДУТИЯ ЖИВОТА. СПЕЦИАЛЬНАЯ ФОРМУЛА ФЕРМЕНТОВ.', icon: '🔥' }
+          ].map((b, i) => (
+            <div key={i} className="bg-white border-8 border-black p-8 shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-none transition-all">
+              <div className="text-6xl mb-6">{b.icon}</div>
+              <h3 className="font-black text-3xl uppercase mb-4">{b.title}</h3>
+              <p className="font-bold text-xl uppercase">{b.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* 2. Ingredients Section */}
+      <section className="w-full border-t-8 border-black bg-white p-8 md:p-16 flex flex-col md:flex-row gap-16">
+        <div className="w-full md:w-1/2">
+          <img src="https://static.tildacdn.com/tild3562-3933-4237-a266-636338356262/Protein_space.jpg" alt="Premium Ingredients" className="w-full border-8 border-black shadow-[16px_16px_0_0_rgba(250,204,21,1)] transform rotate-2" />
+        </div>
+        <div className="w-full md:w-1/2 flex flex-col justify-center">
+          <h2 className="font-black text-5xl md:text-7xl uppercase mb-8 bg-black text-white inline-block p-4 transform -rotate-1 self-start">ЧИСТЫЙ СОСТАВ</h2>
+          <div className="space-y-6">
+            <div className="bg-yellow-400 border-4 border-black p-4 font-black text-2xl uppercase shadow-[8px_8px_0_0_rgba(0,0,0,1)]">
+              ✓ 100% ИЗОЛЯТ СЫВОРОТКИ
+            </div>
+            <div className="bg-yellow-400 border-4 border-black p-4 font-black text-2xl uppercase shadow-[8px_8px_0_0_rgba(0,0,0,1)]">
+              ✓ НАТУРАЛЬНЫЕ АРОМАТИЗАТОРЫ
+            </div>
+            <div className="bg-white border-4 border-black p-4 font-black text-2xl uppercase text-red-600 line-through decoration-4 shadow-[8px_8px_0_0_rgba(0,0,0,1)]">
+              ✕ ДОБАВЛЕННЫЙ САХАР
+            </div>
+            <div className="bg-white border-4 border-black p-4 font-black text-2xl uppercase text-red-600 line-through decoration-4 shadow-[8px_8px_0_0_rgba(0,0,0,1)]">
+              ✕ ИСКУССТВЕННЫЕ КРАСИТЕЛИ
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 3. Testimonials Section */}
+      <section className="w-full border-t-8 border-black bg-black p-8 md:p-16 overflow-hidden">
+        <h2 className="font-black text-5xl md:text-7xl uppercase mb-12 text-yellow-400">СЛОВО ПАЦАНОВ</h2>
+        <div className="flex flex-col md:flex-row gap-8">
+          <div className="w-full md:w-1/2 bg-yellow-400 border-8 border-white p-8 transform rotate-1 hover:rotate-0 transition-transform">
+            <p className="font-black text-2xl uppercase mb-8">
+              "ЛУЧШИЙ ПРОТЕИН. ОТЛИЧНО НА ВКУС, НЕ ВЫЗЫВАЕТ ПРОБЛЕМ С ЖЕЛУДКОМ!"
+            </p>
+            <div className="font-black text-xl uppercase bg-black text-white inline-block px-4 py-2">АЛЕКСАНДР М. / ПРО АТЛЕТ</div>
+          </div>
+          <div className="w-full md:w-1/2 bg-white border-8 border-yellow-400 p-8 transform -rotate-1 hover:rotate-0 transition-transform">
+            <p className="font-black text-2xl uppercase mb-8">
+              "КАК ВРАЧ СОВЕТУЮ. ЧИСТЕЙШИЙ ИЗОЛЯТ БЕЗ ЛИШНЕЙ ХИМИИ. РЕКОМЕНДУЮ ВСЕМ."
+            </p>
+            <div className="font-black text-xl uppercase bg-black text-yellow-400 inline-block px-4 py-2">ЕЛЕНА С. / ВРАЧ</div>
+          </div>
+        </div>
+      </section>
+
+      {/* 4. FAQ Section */}
+      <section className="w-full border-t-8 border-black bg-yellow-400 p-8 md:p-16 flex flex-col items-center">
+        <h2 className="font-black text-5xl md:text-7xl uppercase mb-12 bg-white inline-block px-6 py-2 border-8 border-black shadow-[16px_16px_0_0_rgba(0,0,0,1)] text-center">ЧАСТЫЕ ВОПРОСЫ</h2>
+        <div className="space-y-8 max-w-4xl w-full">
+          {[
+            { q: 'КАК ПРИНИМАТЬ?', a: 'ОДНА МЕРНАЯ ЛОЖКА НА 250МЛ ВОДЫ. ПОСЛЕ ТРЕНИРОВКИ ИЛИ МЕЖДУ ЕДОЙ.' },
+            { q: 'А ЕСЛИ НЕ ПЕРЕНОШУ ЛАКТОЗУ?', a: 'У НАС ВЫСОКАЯ ОЧИСТКА, ЛАКТОЗЫ МИНИМУМ. ПРИ СИЛЬНОЙ АЛЛЕРГИИ - К ВРАЧУ.' },
+            { q: 'ГДЕ ДЕЛАЮТ?', a: 'НА СЕРТИФИЦИРОВАННОМ ПРЕДПРИЯТИИ СО СТРОГИМИ СТАНДАРТАМИ.' }
+          ].map((faq, i) => (
+            <div key={i} className="bg-white border-8 border-black p-6 shadow-[8px_8px_0_0_rgba(0,0,0,1)] hover:bg-black hover:text-white transition-colors group">
+              <h4 className="font-black text-3xl uppercase mb-4">{faq.q}</h4>
+              <p className="font-bold text-xl uppercase group-hover:text-yellow-400">{faq.a}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* 5. Bottom CTA Section */}
+      <section className="w-full border-t-8 border-black bg-white p-16 md:p-32 text-center flex flex-col items-center">
+        <h2 className="font-black text-5xl md:text-9xl uppercase mb-12 tracking-tighter transform rotate-2">
+          ГОТОВ К <br/><span className="bg-yellow-400 px-4 border-8 border-black inline-block mt-4">ДЕЙСТВИЮ?</span>
+        </h2>
+        <Link href="/v7/products" className="inline-block font-black text-4xl uppercase bg-black text-white px-16 py-8 border-8 border-transparent hover:border-yellow-400 hover:bg-white hover:text-black hover:shadow-[24px_24px_0_0_rgba(250,204,21,1)] transition-all transform hover:-translate-y-2 text-center w-full max-w-2xl">
+          КУПИТЬ СЕЙЧАС
+        </Link>
+      </section>
+
       {/* Footer */}
       <footer className="w-full bg-black text-white p-12">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
