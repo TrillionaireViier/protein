@@ -13,6 +13,15 @@ export default function Home() {
     { id: 12, name: "Glassmorphism", path: "/v12", desc: "Frosted glass, holographic gradients, Web3." },
     { id: 13, name: "Vintage Apothecary", path: "/v13", desc: "19th-century medicine, sepia, serif fonts." },
     { id: 14, name: "Hyper-Athletic", path: "/v14", desc: "Carbon fiber, racing red, intense motion." },
+    { id: 15, name: "Anime / Manga", path: "/v15", desc: "Action lines, primary colors, Japanese text." },
+    { id: 16, name: "Corporate B2B", path: "/v16", desc: "Sterile blue/gray, enterprise software look." },
+    { id: 17, name: "Synthwave 80s", path: "/v17", desc: "Neon grids, Miami vice, retro arcade." },
+    { id: 18, name: "Military Tactical", path: "/v18", desc: "Camo, olive drab, stencil fonts." },
+    { id: 19, name: "Gothic Metal", path: "/v19", desc: "Black, blood red, dark lore." },
+    { id: 20, name: "Streetwear", path: "/v20", desc: "Hypebeast, bold quotes, brutalist." },
+    { id: 21, name: "Bauhaus", path: "/v21", desc: "Primary colors, perfect geometry, 1920s." },
+    { id: 22, name: "Space / NASA", path: "/v22", desc: "Deep space, technical readouts, zero gravity." },
+    { id: 23, name: "Tropical Oasis", path: "/v23", desc: "Corals, teals, beach club, sunny vibes." },
   ];
 
   return (
@@ -23,7 +32,7 @@ export default function Home() {
             Protein Landing Pages
           </h1>
           <p className="text-lg md:text-xl text-neutral-500 max-w-2xl">
-            10 radically different design explorations for the Hutchings Health protein supplement landing page.
+            19 radically different design explorations for the Hutchings Health protein supplement landing page.
           </p>
         </header>
 
