@@ -9,6 +9,10 @@ export default function Home() {
     { id: 8, name: "Cyberpunk", path: "/v8", desc: "Neon, glowing tech, biohacker vibes." },
     { id: 9, name: "Eco / Organic", path: "/v9", desc: "Natural greens, soft shapes, earthy." },
     { id: 10, name: "Minimalist", path: "/v10", desc: "Apple-style, clean typography, huge photos." },
+    { id: 11, name: "Retro 90s (Y2K)", path: "/v11", desc: "Nostalgic internet, shiny 3D buttons." },
+    { id: 12, name: "Glassmorphism", path: "/v12", desc: "Frosted glass, holographic gradients, Web3." },
+    { id: 13, name: "Vintage Apothecary", path: "/v13", desc: "19th-century medicine, sepia, serif fonts." },
+    { id: 14, name: "Hyper-Athletic", path: "/v14", desc: "Carbon fiber, racing red, intense motion." },
   ];
 
   return (
@@ -19,7 +23,7 @@ export default function Home() {
             Protein Landing Pages
           </h1>
           <p className="text-lg md:text-xl text-neutral-500 max-w-2xl">
-            6 radically different design explorations for the Hutchings Health protein supplement landing page.
+            10 radically different design explorations for the Hutchings Health protein supplement landing page.
           </p>
         </header>
 
