@@ -6,6 +6,9 @@ export default function Home() {
     { id: 1, name: "Clean & Medical", path: "/v1", desc: "White, trustworthy, medical-grade aesthetic." },
     { id: 4, name: "Premium Dark", path: "/v4", desc: "Black/Gold, luxurious, sleek." },
     { id: 7, name: "Brutalism", path: "/v7", desc: "Raw borders, high contrast, marquee text." },
+    { id: 8, name: "Cyberpunk", path: "/v8", desc: "Neon, glowing tech, biohacker vibes." },
+    { id: 9, name: "Eco / Organic", path: "/v9", desc: "Natural greens, soft shapes, earthy." },
+    { id: 10, name: "Minimalist", path: "/v10", desc: "Apple-style, clean typography, huge photos." },
   ];
 
   return (
@@ -16,7 +19,7 @@ export default function Home() {
             Protein Landing Pages
           </h1>
           <p className="text-lg md:text-xl text-neutral-500 max-w-2xl">
-            3 radically different design explorations for the Hutchings Health protein supplement landing page.
+            6 radically different design explorations for the Hutchings Health protein supplement landing page.
           </p>
         </header>
 
