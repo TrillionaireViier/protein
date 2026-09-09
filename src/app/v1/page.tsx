@@ -18,7 +18,7 @@ export default function Version1() {
           <div className="font-bold text-2xl tracking-tight text-blue-900">
             Hutchings<span className="text-blue-600">Health</span>
           </div>
-          <Link href="http://hutchingshealth.tilda.ws/products111" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-full font-semibold transition-all shadow-sm shadow-blue-200">
+          <Link href="/v1/products" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-full font-semibold transition-all shadow-sm shadow-blue-200">
             Заказать
           </Link>
         </div>
@@ -40,7 +40,7 @@ export default function Version1() {
               Все продукты Хатчингс Здоровье разрабатываются индивидуально врачом, учёным и мастером спорта Эндрю Хатчингсом.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="http://hutchingshealth.tilda.ws/products111" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg shadow-blue-600/20 flex items-center justify-center">
+              <Link href="/v1/products" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg shadow-blue-600/20 flex items-center justify-center">
                 Купить сейчас
               </Link>
               <button className="bg-white hover:bg-slate-50 text-slate-700 px-8 py-4 rounded-xl font-bold text-lg border border-slate-200 transition-all flex items-center justify-center">
@@ -150,7 +150,7 @@ export default function Version1() {
           
           <div className="flex gap-8 font-semibold tracking-wider uppercase text-sm">
             <Link href="/v1/about" className="hover:text-white transition-colors">О НАС</Link>
-            <Link href="http://hutchingshealth.tilda.ws/products111" className="hover:text-white transition-colors">ПРОДУКТЫ</Link>
+            <Link href="/v1/products" className="hover:text-white transition-colors">ПРОДУКТЫ</Link>
             <Link href="/v1/contact" className="hover:text-white transition-colors">КОНТАКТ</Link>
           </div>
           
