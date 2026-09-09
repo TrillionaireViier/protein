@@ -127,9 +127,9 @@ export default function Version7() {
           </div>
           
           <div className="flex flex-wrap justify-center gap-8 font-black text-2xl uppercase">
-            <Link href="#" className="hover:text-yellow-400 transition-colors">О НАС</Link>
+            <Link href="http://hutchingshealth.tilda.ws/products111" className="hover:text-yellow-400 transition-colors">О НАС</Link>
             <Link href="http://hutchingshealth.tilda.ws/products111" className="hover:text-yellow-400 transition-colors">ПРОДУКТЫ</Link>
-            <Link href="#" className="hover:text-yellow-400 transition-colors">КОНТАКТ</Link>
+            <Link href="http://hutchingshealth.tilda.ws/products111" className="hover:text-yellow-400 transition-colors">КОНТАКТ</Link>
           </div>
           
           <div className="font-bold text-xl uppercase bg-yellow-400 text-black px-4 py-2 border-4 border-black">

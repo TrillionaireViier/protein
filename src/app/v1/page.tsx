@@ -149,9 +149,9 @@ export default function Version1() {
           </div>
           
           <div className="flex gap-8 font-semibold tracking-wider uppercase text-sm">
-            <Link href="#" className="hover:text-white transition-colors">О НАС</Link>
+            <Link href="http://hutchingshealth.tilda.ws/products111" className="hover:text-white transition-colors">О НАС</Link>
             <Link href="http://hutchingshealth.tilda.ws/products111" className="hover:text-white transition-colors">ПРОДУКТЫ</Link>
-            <Link href="#" className="hover:text-white transition-colors">КОНТАКТ</Link>
+            <Link href="http://hutchingshealth.tilda.ws/products111" className="hover:text-white transition-colors">КОНТАКТ</Link>
           </div>
           
           <div className="text-sm opacity-50">

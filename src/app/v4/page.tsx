@@ -145,9 +145,9 @@ export default function Version4() {
           </div>
           
           <div className="flex gap-10 text-xs tracking-[0.2em] uppercase">
-            <Link href="#" className="text-zinc-500 hover:text-[#d4af37] transition-colors">О НАС</Link>
+            <Link href="http://hutchingshealth.tilda.ws/products111" className="text-zinc-500 hover:text-[#d4af37] transition-colors">О НАС</Link>
             <Link href="http://hutchingshealth.tilda.ws/products111" className="text-zinc-500 hover:text-[#d4af37] transition-colors">ПРОДУКТЫ</Link>
-            <Link href="#" className="text-zinc-500 hover:text-[#d4af37] transition-colors">КОНТАКТ</Link>
+            <Link href="http://hutchingshealth.tilda.ws/products111" className="text-zinc-500 hover:text-[#d4af37] transition-colors">КОНТАКТ</Link>
           </div>
           
           <div className="text-zinc-700 text-[10px] tracking-[0.3em] uppercase">
