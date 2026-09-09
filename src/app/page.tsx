@@ -22,6 +22,21 @@ export default function Home() {
     { id: 21, name: "Bauhaus", path: "/v21", desc: "Primary colors, perfect geometry, 1920s." },
     { id: 22, name: "Space / NASA", path: "/v22", desc: "Deep space, technical readouts, zero gravity." },
     { id: 23, name: "Tropical Oasis", path: "/v23", desc: "Corals, teals, beach club, sunny vibes." },
+    { id: 24, name: "Steampunk", path: "/v24", desc: "Brass, gears, Victorian fonts, copper colors, steam engine aesthetics." },
+    { id: 25, name: "8-Bit Pixel Art", path: "/v25", desc: "Retro arcade, blocky fonts, bright colors, gaming UI." },
+    { id: 26, name: "High Fashion", path: "/v26", desc: "Vogue magazine style, extremely thin serif fonts, elegant and chic." },
+    { id: 27, name: "Psychedelic / Trippy", path: "/v27", desc: "Swirling neon colors, melting fonts, acid rock poster vibes." },
+    { id: 28, name: "Chalkboard", path: "/v28", desc: "Sketchy lines, chalkboard background, handwritten fonts." },
+    { id: 29, name: "Memphis Design", path: "/v29", desc: "1980s colorful abstract shapes, bold contrasting pastels." },
+    { id: 30, name: "Neumorphism", path: "/v30", desc: "Soft UI, embossed/debossed from soft plastic, futuristic." },
+    { id: 31, name: "Web 1.0 (GeoCities)", path: "/v31", desc: "Retro 1996 internet, times new roman, harsh blue links." },
+    { id: 32, name: "Luxury Hotel / Spa", path: "/v32", desc: "Serene, gold accents, marble textures, highly premium wellness retreat." },
+    { id: 33, name: "Graffiti / Grunge", path: "/v33", desc: "Spray paint, concrete textures, street art, aggressive." },
+    { id: 34, name: "Pure Monochrome", path: "/v34", desc: "Strictly black and white. High contrast, intense." },
+    { id: 35, name: "Holographic", path: "/v35", desc: "Shimmering pearl colors, fluid gradients, reflective." },
+    { id: 36, name: "Wild West / Saloon", path: "/v36", desc: "Wood textures, wanted poster fonts, sepia tones." },
+    { id: 37, name: "Vaporwave", path: "/v37", desc: "Windows 95 aesthetics, pastel pinks and purples, grid lines." },
+    { id: 38, name: "Deep Ocean", path: "/v38", desc: "Extremely dark blues, bioluminescent glowing text, underwater." },
   ];
 
   return (
@@ -32,7 +47,7 @@ export default function Home() {
             Protein Landing Pages
           </h1>
           <p className="text-lg md:text-xl text-neutral-500 max-w-2xl">
-            19 radically different design explorations for the Hutchings Health protein supplement landing page.
+            34 radically different design explorations for the Hutchings Health protein supplement landing page.
           </p>
         </header>
 
