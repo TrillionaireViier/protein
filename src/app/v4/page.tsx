@@ -18,9 +18,9 @@ export default function Version4() {
           <div className="font-serif text-2xl tracking-[0.3em] uppercase">
             Hutchings<span className="text-[#d4af37]">Health</span>
           </div>
-          <button className="text-[#d4af37] hover:text-white border border-[#d4af37] hover:border-white px-8 py-3 text-sm uppercase tracking-[0.2em] transition-all">
+          <Link href="http://hutchingshealth.tilda.ws/products111" className="text-[#d4af37] hover:text-white border border-[#d4af37] hover:border-white px-8 py-3 text-sm uppercase tracking-[0.2em] transition-all">
             Купить
-          </button>
+          </Link>
         </div>
       </nav>
 
@@ -41,9 +41,9 @@ export default function Version4() {
               Все продукты Хатчингс Здоровье разрабатываются индивидуально врачом, учёным и мастером спорта Эндрю Хатчингсом.
             </p>
             <div className="flex flex-col sm:flex-row gap-6">
-              <button className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-10 py-4 text-sm uppercase tracking-[0.2em] font-medium transition-all shadow-[0_0_40px_rgba(212,175,55,0.2)]">
+              <Link href="http://hutchingshealth.tilda.ws/products111" className="bg-gradient-to-r from-[#b38f22] to-[#d4af37] hover:from-[#d4af37] hover:to-[#f9e596] text-black px-10 py-4 text-sm uppercase tracking-[0.2em] font-medium transition-all shadow-[0_0_40px_rgba(212,175,55,0.2)] inline-block">
                 Приобрести
-              </button>
+              </Link>
             </div>
           </div>
           
@@ -146,7 +146,7 @@ export default function Version4() {
           
           <div className="flex gap-10 text-xs tracking-[0.2em] uppercase">
             <Link href="#" className="text-zinc-500 hover:text-[#d4af37] transition-colors">О НАС</Link>
-            <Link href="#" className="text-zinc-500 hover:text-[#d4af37] transition-colors">ПРОДУКТЫ</Link>
+            <Link href="http://hutchingshealth.tilda.ws/products111" className="text-zinc-500 hover:text-[#d4af37] transition-colors">ПРОДУКТЫ</Link>
             <Link href="#" className="text-zinc-500 hover:text-[#d4af37] transition-colors">КОНТАКТ</Link>
           </div>
           

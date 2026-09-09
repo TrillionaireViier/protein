@@ -30,9 +30,9 @@ export default function Version7() {
           <div className="font-black text-3xl md:text-5xl tracking-tighter uppercase px-8">
             HUTCHINGS_HEALTH
           </div>
-          <button className="px-8 py-6 font-black text-2xl uppercase border-l-8 border-black hover:bg-black hover:text-white transition-colors">
+          <Link href="http://hutchingshealth.tilda.ws/products111" className="px-8 py-6 font-black text-2xl uppercase border-l-8 border-black hover:bg-black hover:text-white transition-colors block text-center">
             КУПИТЬ
-          </button>
+          </Link>
         </div>
       </nav>
 
@@ -46,9 +46,9 @@ export default function Version7() {
           <p className="text-2xl md:text-3xl font-bold uppercase max-w-xl border-l-8 border-black pl-6 mb-12">
             Все продукты разрабатываются врачом, учёным и мастером спорта.
           </p>
-          <button className="w-full bg-black text-white font-black text-4xl uppercase py-8 border-8 border-black hover:bg-white hover:text-black transition-colors shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4">
+          <Link href="http://hutchingshealth.tilda.ws/products111" className="w-full bg-black text-white font-black text-4xl uppercase py-8 border-8 border-black hover:bg-white hover:text-black transition-colors shadow-[16px_16px_0_0_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-4 hover:translate-y-4 block text-center">
             В КОРЗИНУ
-          </button>
+          </Link>
         </div>
         
         <div className="flex-1 bg-white p-12 flex items-center justify-center relative overflow-hidden">
@@ -128,7 +128,7 @@ export default function Version7() {
           
           <div className="flex flex-wrap justify-center gap-8 font-black text-2xl uppercase">
             <Link href="#" className="hover:text-yellow-400 transition-colors">О НАС</Link>
-            <Link href="#" className="hover:text-yellow-400 transition-colors">ПРОДУКТЫ</Link>
+            <Link href="http://hutchingshealth.tilda.ws/products111" className="hover:text-yellow-400 transition-colors">ПРОДУКТЫ</Link>
             <Link href="#" className="hover:text-yellow-400 transition-colors">КОНТАКТ</Link>
           </div>
           
