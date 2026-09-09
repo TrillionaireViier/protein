@@ -47,7 +47,7 @@ export default function Version1() {
                 Читать исследования
               </button>
             </div>
-          </div>
+          </motion.div>
           
           <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8, delay: 0.2 }} className="relative">
             {/* Medical Cross Background Pattern */}
@@ -90,7 +90,7 @@ export default function Version1() {
             <p className="text-slate-600 max-w-2xl mx-auto leading-relaxed">
               Продукты Хатчингс Здоровье содержат всё необходимое и ничего лишнего! Мы добавляем только полезное и исключаем вредное.
             </p>
-          </div>
+          </motion.div>
           
           <div className="grid md:grid-cols-3 gap-8">
             {[

@@ -3,6 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 import { ArrowLeft, Target, Zap, Shield, ChevronRight } from 'lucide-react';
 import { motion } from 'framer-motion';
+import Tilt from 'react-parallax-tilt';
 
 export default function Version7() {
   return (
